@@ -36,6 +36,4 @@ Oops! We are not maintaining the website currently :(.
 
 But in *Zempath*'s promotional video, we've introduced our motivations and core concepts, and have displayed how users can chat, post anonymously or with their real name, converse with chatbots, and make new friends here. Let's take a look at a clip from the amazing video:
 
-![Zempath_display](/images/Zempath_display.gif)
-
  
