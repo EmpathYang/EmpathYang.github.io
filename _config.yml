@@ -10,7 +10,7 @@ locale                   : "en-US"
 title                    : "Ke Yang"
 title_separator          : "-"
 name                     : &name "Ke Yang"
-description              : &description "Research assistant at Tsinghua University"
+description              : &description "Undergraduate student at Tsinghua University"
 url                      : https://EmpathYang.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "EmpathYang.github.io"
@@ -82,7 +82,7 @@ analytics:
 author:
   name             : "Ke Yang"
   avatar           : "profile.png"
-  bio              : "Research assistant at Tsinghua University. \n Sapere audē! \n Festīnā lentē."
+  bio              : "Undergraduate Student at Tsinghua University.\nFestīnā lentē."
   location         : "Beijing, China"
   employer         :
   pubmed           :
