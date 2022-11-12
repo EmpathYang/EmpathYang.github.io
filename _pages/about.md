@@ -15,9 +15,7 @@ My research interests lie in natural language processing, and I am particularly 
 
 
 Publications
-
-------
-
+======
 2. **Social Discrimination or Statistical Error: A Statistical Foundation of Bias, Disparity, and Fairness of Pre-trained Language Models**
 
 Yiran Liu*, **Ke Yang\***, Xiao Liu, Yang Yu (\* indicates equal contributions)
@@ -33,9 +31,7 @@ Yiran Liu*, **Ke Yang\***, Xiao Liu, Yang Yu (\* indicates equal contributions)
 
 
 <span id='jump'>*Zempath*</span>
-
-------
-
+======
 Oops! We are not maintaining the website currently :(. 
 
 But in *Zempath*'s promotional video, we've introduced our motivations and core concepts, and have displayed how users can chat, post anonymously or with their real name, converse with chatbots, and make new friends here. Let's take a look at a clip from the amazing video:
