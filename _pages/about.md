@@ -57,4 +57,9 @@ Research Experiences
 
 In *Zempath*'s promotional video, we introduce our motivations and core concepts, and display how users can chat, post anonymously or with their real name, converse with chatbots, and make new friends here. Take a look at a clip from the amazing video:
 
- 
+![Zempath](/images/Zempath_display.gif)
+
+Miscellaneous
+------
+While I was born and brought up in Shanghai, China, I am actually from an obscure and gentle village in Anhui. We have golden paddy field and wild geese here!  
+I am an amateur novalist and photographer. I take photos of my sister, parents, grandparents and friends in my spare time.
