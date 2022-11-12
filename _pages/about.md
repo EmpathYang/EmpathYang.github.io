@@ -63,4 +63,4 @@ Miscellaneous
 ------
 While I was born and brought up in Shanghai, China, I am actually from an obscure and gentle village in Anhui. My family owns a golden paddy field and wild geese here!
 
-I am an amateur novelist, [painter](/images/hey_you.jpg), and photographer. I take photos of [cats](/images/cat.jpg), [my sister](/images/my_cool_sister.jpg), [grandparents](/images/my_grandparents.jpg), [friends](/images/on_my_21th_birthday.jpg), [campus](/images/campus.jpg), etc., in my spare time.
+I am an amateur novelist, [painter](/images/hey_you.jpg), and photographer. I take photos of [cats](/images/cat.jpg), [my sister](/images/my_cool_sister.jpg), [grandparents](/images/my_grandparents.jpg), [friends](/images/on_my_21th_birthday.jpg), [campus](/images/campus.png), etc., in my spare time.
