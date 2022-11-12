@@ -14,19 +14,19 @@ My research interests lie in natural language processing, and I am particularly 
 
 
 
+
+
 Publications
 ======
-2. **Social Discrimination or Statistical Error: A Statistical Foundation of Bias, Disparity, and Fairness of Pre-trained Language Models**
-
+2.**Social Discrimination or Statistical Error: A Statistical Foundation of Bias, Disparity, and Fairness of Pre-trained Language Models**
 Yiran Liu*, **Ke Yang\***, Xiao Liu, Yang Yu (\* indicates equal contributions)
-
 *In Preparation*
 
-1. **ADEPT: A DEbiasing PrompT Framework** [[paper](https://arxiv.org/abs/2211.05414)]
-
+1.**ADEPT: A DEbiasing PrompT Framework** [[paper](https://arxiv.org/abs/2211.05414)]
 **Ke Yang**, Charles Yu, Yi Fung, Manling Li, Heng Ji
-
 **AAAI-23**
+
+
 
 
 
