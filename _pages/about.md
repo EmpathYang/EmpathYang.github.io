@@ -61,5 +61,6 @@ In *Zempath*'s promotional video, we introduce our motivations and core concepts
 
 Miscellaneous
 ------
-While I was born and brought up in Shanghai, China, I am actually from an obscure and gentle village in Anhui. We have golden paddy field and wild geese here!  
-I am an amateur novalist and photographer. I take photos of my sister, parents, grandparents and friends in my spare time.
+While I was born and brought up in Shanghai, China, I am actually from an obscure and gentle village in Anhui. My family owns a golden paddy field and wild geese here!
+
+I am an amateur novelist, painter, and photographer. I take photos of my sister, parents, grandparents, and friends in my spare time.
