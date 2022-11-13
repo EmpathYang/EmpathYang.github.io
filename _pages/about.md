@@ -53,7 +53,7 @@ Research Experiences
 ------
 ![Zempath](/images/Zempath.png)
 
-<center><i>Oops! We are not maintaining the website currently.</i></center>
+<center><i>Oops! We are currently not maintaining the website.</i></center>
 
 In *Zempath*'s promotional video, we introduce our motivations and core concepts, and display how users can chat, post anonymously or with their real name, converse with chatbots, and make new friends here. Take a look at a clip from the amazing video:
 
