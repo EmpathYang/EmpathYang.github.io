@@ -14,11 +14,11 @@ My research interests lie in **natural language processing**, and I am particula
 
 Publications
 ------
-**Social Discrimination or Statistical Error: A Statistical Foundation of Bias, Disparity, and Fairness of Pre-trained Language Models**  
-Yiran Liu\*, *Ke Yang\**, Zehan Qi, Yang Yu (\* indicates equal contributions)  
+**Prejudice or Foolishness: A Statistical Theory of Social Discrimination in Learning Machines**  
+Yiran Liu\*, *Ke Yang\**, Zehan Qi, Yang Yu (\* indicates equal contribution)  
 *In Preparation*
 
-**ADEPT: A DEbiasing PrompT Framework [[paper](https://arxiv.org/abs/2211.05414)]**  
+**ADEPT: A DEbiasing PrompT Framework [[paper](https://arxiv.org/abs/2211.05414)]\[[code](github.com/EmpathYang/ADEPT)\]**  
 *Ke Yang*, Charles Yu, Yi Fung, Manling Li, Heng Ji  
 AAAI-23
 
