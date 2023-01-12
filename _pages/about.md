@@ -16,7 +16,7 @@ Publications
 ------
 **Prejudice or Foolishness: A Statistical Theory of Social Discrimination in Learning Machines**  
 Yiran Liu\*, *Ke Yang\**, Zehan Qi, Yang Yu (\* indicates equal contribution)  
-*In Preparation*
+*In Submission*
 
 **ADEPT: A DEbiasing PrompT Framework [[paper](https://arxiv.org/abs/2211.05414)]\[[code](https://github.com/EmpathYang/ADEPT)\]**  
 *Ke Yang*, Charles Yu, Yi Fung, Manling Li, Heng Ji  
