@@ -18,7 +18,7 @@ Publications
 Yiran Liu\*, *Ke Yang\**, Zehan Qi, Xiao Liu, Yang Yu (\* indicates equal contribution)  
 *In Submission*
 
-**ADEPT: A DEbiasing PrompT Framework \[[paper](https://arxiv.org/abs/2211.05414)]\[[code](https://github.com/EmpathYang/ADEPT)\]\[[slide](/files/ADEPT.pdf)\]**  
+**ADEPT: A DEbiasing PrompT Framework \[[paper](https://arxiv.org/abs/2211.05414)]\[[code](https://github.com/EmpathYang/ADEPT)\]\[[slide](/files/ADEPT.pptx)\]**  
 *Ke Yang*, Charles Yu, Yi Fung, Manling Li, Heng Ji  
 AAAI-23
 
