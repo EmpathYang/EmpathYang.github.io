@@ -14,11 +14,11 @@ My research interests lie in **natural language processing**, and I am particula
 
 Publications
 ------
-**Prejudice or Foolishness: A Statistical Theory of Social Discrimination in Learning Machines \[[silde](/files/DISCREAL.pptx)\]**  
+**Prejudice or Foolishness: A Statistical Theory of Social Discrimination in Learning Machines \[[silde](/files/DISCREAL.pdf)\]**  
 Yiran Liu\*, *Ke Yang\**, Zehan Qi, Xiao Liu, Yang Yu (\* indicates equal contribution)  
 *In Submission*
 
-**ADEPT: A DEbiasing PrompT Framework \[[paper](https://arxiv.org/abs/2211.05414)]\[[code](https://github.com/EmpathYang/ADEPT)\]\[[slide](/files/ADEPT.pptx)\]**  
+**ADEPT: A DEbiasing PrompT Framework \[[paper](https://arxiv.org/abs/2211.05414)]\[[code](https://github.com/EmpathYang/ADEPT)\]\[[slide](/files/ADEPT.pdf)\]**  
 *Ke Yang*, Charles Yu, Yi Fung, Manling Li, Heng Ji  
 AAAI-23
 
