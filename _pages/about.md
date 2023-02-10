@@ -37,7 +37,7 @@ Research Experiences
 * Added additional prompt prefixes to the decoder of the T5-large, and performed parametrization on the prompt parameters, resulting in an order-of-magnitude loss improvement with the new loss comparable to the loss in the finetuning setting.
 * Proposed distributed prompt tokens and prompt residual connections to improve prompt tuning's capacity for optimization on T5.
 
-**Social Discrimination or Statistical Error: A Statistical Foundation of Bias, Disparity, and Fairness of Pre-trained Language Models**	Sept. 2021 - Present  
+**Prejudice or Foolishness: A Statistical Theory of Social Discrimination in Learning Machines**	Sept. 2021 - Dec. 2022  
 *Research Assistant, Advisor: Yang Yu, Assistant Professor, Tsinghua University.*
 * Took Pre-trained Language Models (PLMs) as estimators and proposed a non-parametric method to analyze discrimination in these PLMs.
 * Introduced two schemes to form the sample for estimation concerning different causes of discrimination (e.g., gender, race, religion), and provided the corresponding evaluation methods.
