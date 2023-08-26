@@ -8,9 +8,9 @@ redirect_from:
   - /about.html
 ---
 
-Hi! My name is Ke Yang. I am currently a senior student at Tsinghua University majoring in Automation, where I am fortunate to have been advised by Prof. [Jie Tang](http://keg.cs.tsinghua.edu.cn/jietang/), Prof. [Yang Yu](https://iiis.tsinghua.edu.cn/zh/yuy/), and Prof. [Hairong Lv](https://scholar.google.com/citations?user=WU1tm2EAAAAJ). I also interned at UIUC [BLENDER Lab](http://blender.cs.illinois.edu/) in 2022, advised by Prof. [Heng Ji](http://blender.cs.illinois.edu/hengji.html).
+Hello there! I'm Ke Yang, currently embarking on my first year of pursuing a Ph.D. at UIUC under the guidance of Professor [Chengxiang Zhai](http://czhai.cs.illinois.edu/). I hold a bachelor's degree in Automation from Tsinghua University, where I had the privilege of contributing as a research assistant within Professor [Jie Tang](http://keg.cs.tsinghua.edu.cn/jietang/)'s research group. During the summer of 2022, I had the opportunity to intern with Professor [Heng Ji](http://blender.cs.illinois.edu/hengji.html)'s esteemed group at UIUC.
 
-My research interests lie in **natural language processing**, and I am particularly excited about **language generation and conversational AI**. Over the 2022 winter break, I assembled a team of software engineers, and we together created [*Zempath*](#jump), an online social platform featuring chatbots with distinct personalities. I also pay close attention to **NLP for social good** and **efficient learning**.
+My academic journey revolves around the captivating realm of natural language processing, with a special fervor for the domains of **language generation** and **conversational AI**. During the winter break of 2022, I orchestrated a collaboration with a team of skilled software engineers. Our collective efforts culminated in the creation of [*Zempath*](#jump), an innovative online social platform that introduces chatbots endowed with distinctive personalities. My attention is also finely attuned to **NLP for societal benefit** and **efficient learning methodologies**.
 
 Publications
 ------
@@ -22,45 +22,18 @@ Yiran Liu\*, *Ke Yang\**, Zehan Qi, Xiao Liu, Yang Yu (\* indicates equal contri
 *Ke Yang*, Charles Yu, Yi Fung, Manling Li, Heng Ji  
 AAAI-23
 
-Research Experiences
-------
-**ADEPT: A DEbiasing PrompT Framework**	Jun. 2022 – Aug. 2022  
-*Research Assistant, Advisor: Heng Ji, Professor, University of Illinois Urbana-Champaign.*
-* Exploited prompt tuning in the debiasing space.
-* Introduced a novel debiasing criterion, which often enabled the debiased model to perform better than the original one in downstream tasks.
-* Conducted extensive experiments and showed that the new debiasing algorithm ADEPT was more effective at mitigating biases on a word embedding manifold than other methods which operated on a linear bias subspace.
-* Proposed methods for improving prototypes for contextualized word embeddings that were generated via aggregation.
-
-**Exploring the Capabilities of Prompts in Transfer Learning**	Apr. 2022 - Present  
-*Research Assistant, Advisor: Jie Tang, Professor, Tsinghua University.*
-* Tracked variables during the multitask prompt tuning process, and discovered that prompt tuning was incapable of handling tasks with lengthy inputs, special labels, and unfixed label numbers.
-* Added additional prompt prefixes to the decoder of the T5-large, and performed parametrization on the prompt parameters, resulting in an order-of-magnitude loss improvement with the new loss comparable to the loss in the finetuning setting.
-* Proposed distributed prompt tokens and prompt residual connections to improve prompt tuning's capacity for optimization on T5.
-
-**Prejudice or Foolishness: A Statistical Theory of Social Discrimination in Learning Machines**	Sept. 2021 - Dec. 2022  
-*Research Assistant, Advisor: Yang Yu, Assistant Professor, Tsinghua University.*
-* Took Pre-trained Language Models (PLMs) as estimators and proposed a non-parametric method to analyze discrimination in these PLMs.
-* Introduced two schemes to form the sample for estimation concerning different causes of discrimination (e.g., gender, race, religion), and provided the corresponding evaluation methods.
-* Analyzed the basis and the mechanism of the PLMs' displaying biases by conducting hypothesis testing.
-* Took GPT2, BERT, RoBERTa, etc., as the illustrating example, and performed the algorithmic discrimination risk assessment and test.
-
-**A Survey on Language Models for Knowledge**	May 2021  
-*Research Assistant, Advisor: Jie Tang, Professor, Tsinghua University.*
-* Collaborated with other students on gathering papers and teasing out the development of prompts, which served as additional inputs for the PLMs to improve their performance.
-* Contributed to a survey on how knowledge and technology had developed relating to prompts.
-
 <span id='jump'>**Zempath**</span>
 ------
 ![Zempath](/images/Zempath.png)
 
 <center><i>Oops! We are currently not maintaining the website.</i></center>
 
-In *Zempath*'s promotional video, we introduce our motivations and core concepts, and display how users can chat, post anonymously or with their real name, converse with chatbots, and make new friends here. Take a look at a clip from the amazing video:
+In the promotional video for Zempath, we unveil our driving inspirations and fundamental principles. We showcase the seamless user experience of engaging in chats, posting either anonymously or under one's real name, indulging in conversations with our personalized chatbots, and forging new connections with like-minded individuals. Let's delve into a snippet from this captivating video:
 
 ![Zempath](/images/Zempath_display.gif)
 
 Miscellaneous
 ------
-While I was born and brought up in Shanghai, China, I am actually from an obscure and gentle village in Anhui. My family owns a golden paddy field and wild geese here!
+Although I was born and raised in Shanghai, China, my true origins trace back to a serene and lesser-known village in Anhui. It's there that my family is proud custodian of a golden paddy field and a haven for wild geese!
 
 I am an amateur novelist, [painter](/images/hey_you.jpg), and photographer. I take photos of [cats](/images/cat.jpg), [my sister](/images/my_cool_sister.jpg), [grandparents](/images/my_grandparents.jpg), [friends](/images/on_my_21th_birthday.png), [campus](/images/campus.png), etc., in my spare time.
