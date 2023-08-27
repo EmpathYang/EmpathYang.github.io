@@ -10,7 +10,7 @@ locale                   : "en-US"
 title                    : "Ke Yang"
 title_separator          : "-"
 name                     : &name "Ke Yang"
-description              : &description "Undergraduate student at Tsinghua University"
+description              : &description "CS Ph.D. Candidate at UIUC"
 url                      : https://EmpathYang.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "EmpathYang.github.io"
@@ -82,11 +82,11 @@ analytics:
 author:
   name             : "Ke Yang"
   avatar           : "profile.jpg"
-  bio              : "Undergraduate Student at Tsinghua University.\nFestīnā lentē."
-  location         : "Beijing, China"
+  bio              : "CS Ph.D. Candidate at UIUC.\nFestīnā lentē."
+  location         : "IL, US"
   employer         :
   pubmed           :
-  googlescholar    :
+  googlescholar    : "https://scholar.google.com/citations?user=13Puu8AAAAAJ&hl=en"
   email            : "yangke0605@hotmail.com"
   researchgate     :  # example: "https://www.researchgate.net/profile/yourprofile"
   uri              :
