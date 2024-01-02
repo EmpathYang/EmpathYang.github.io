@@ -14,6 +14,9 @@ My academic journey revolves around the captivating realm of natural language pr
 
 Publications
 ------
+**If LLM Is the Wizard, Then Code Is the Wand: A Survey on How Code Empowers Large Language Models to Serve as Intelligent Agents \[[paper](https://arxiv.org/abs/2401.00812)]**  
+*Ke Yang\**, Jiateng Liu\*, John Wu, Chaoqi Yang, Yi R. Fung, Sha Li, Zixuan Huang, Xu Cao, Xingyao Wang, Yiquan Wang, Heng Ji, Chengxiang Zhai  
+
 **Prejudice or Foolishness: A Statistical Theory of Social Discrimination in Learning Machines \[[silde](/files/DISCREAL.pdf)\]**  
 Yiran Liu\*, *Ke Yang\**, Zehan Qi, Xiao Liu, Yang Yu (\* indicates equal contribution)  
 *In Submission*
