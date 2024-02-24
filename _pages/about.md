@@ -19,7 +19,7 @@ table, td, th, tr {
 }
 </style>
 
-<h2><span>Publications</span></h2>
+<h2><span>Main Publications</span></h2>
 <table cellspacing="0" cellpadding="0">
 <tr>
 <td style="padding:0px;width:30%;vertical-align:middle">
@@ -53,7 +53,7 @@ table, td, th, tr {
 </tr>  
 <tr>
 <td style="padding:0px;width:30%;vertical-align:middle">
-  <img src="../images/ADEPT-results.png" height="100%" width="100%" style="border-style: none">
+  <img src="../images/ADEPT-framework.png" height="100%" width="100%" style="border-style: none">
 </td>
 <td style="padding:20px;width:70%;vertical-align:middle">  
   <h3>ADEPT: A DEbiasing PrompT Framework</h3>
@@ -72,9 +72,10 @@ table, td, th, tr {
 
 <span id='jump'>**Zempath**</span>
 ------
-![Zempath](/images/Zempath.png)
-
-<center><i>Oops! We are currently not maintaining the website.</i></center>
+<h2>
+    <span>Selected Publications</span>
+    <img src="/images/Zempath.png" alt="Icon" style="float: right; margin-left: 10px;">
+</h2>
 
 In the promotional video for Zempath, we unveil our driving inspirations and fundamental principles. We showcase the seamless user experience of engaging in chats, posting either anonymously or under one's real name, indulging in conversations with our personalized chatbots, and forging new connections with like-minded individuals. Let's delve into a snippet from this captivating video:
 
