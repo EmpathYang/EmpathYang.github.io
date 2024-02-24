@@ -71,8 +71,8 @@ table, td, th, tr {
 </table>
 
 <h2>
-    <span id='jump'>Zempath</span>
     <img src="/images/Zempath.png" alt="Icon" style="display: inline-block; vertical-align: middle; width: 50px;">
+    <span id='jump'>Zempath</span> 
 </h2>
 
 In the promotional video for Zempath, we unveil our driving inspirations and fundamental principles. We showcase the seamless user experience of engaging in chats, posting either anonymously or under one's real name, indulging in conversations with our personalized chatbots, and forging new connections with like-minded individuals. Let's delve into a snippet from this captivating video:
