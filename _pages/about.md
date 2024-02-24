@@ -8,22 +8,67 @@ redirect_from:
   - /about.html
 ---
 
-Hello there! I'm Ke Yang, currently embarking on my first year of pursuing a Ph.D. at UIUC under the guidance of Professor [Chengxiang Zhai](http://czhai.cs.illinois.edu/). I hold a bachelor's degree in Automation from Tsinghua University, where I had the privilege of contributing as a research assistant within Professor [Jie Tang](http://keg.cs.tsinghua.edu.cn/jietang/)'s research group. During the summer of 2022, I had the opportunity to intern with Professor [Heng Ji](http://blender.cs.illinois.edu/hengji.html)'s esteemed group at UIUC.
+Hello there! I'm Ke Yang (杨可), currently embarking on my first year of pursuing a Ph.D. at UIUC under the guidance of Professor [Chengxiang Zhai](http://czhai.cs.illinois.edu/). I hold a bachelor's degree in Automation from Tsinghua University, where I had the privilege of contributing as a research assistant within Professor [Jie Tang](http://keg.cs.tsinghua.edu.cn/jietang/)'s research group. During the summer of 2022, I had the opportunity to intern with Professor [Heng Ji](http://blender.cs.illinois.edu/hengji.html)'s esteemed group at UIUC.
 
-My academic journey revolves around the captivating realm of natural language processing, with a special fervor for the domains of **language generation** and **conversational AI**. During the winter break of 2022, I orchestrated a collaboration with a team of skilled software engineers. Our collective efforts culminated in the creation of [*Zempath*](#jump), an innovative online social platform that introduces chatbots endowed with distinctive personalities. My attention is also finely attuned to **NLP for societal benefit** and **efficient learning methodologies**.
+My academic journey revolves around the captivating realm of natural language processing, with a special fervor for the domains of **intelligent agents**, **language models**, **graph neural networks**, and **multimodality foundation models**. During the winter break of 2022, I orchestrated a collaboration with a team of skilled software engineers. Our collective efforts culminated in the creation of [*Zempath*](#jump), an innovative online social platform that introduces chatbots endowed with distinctive personalities. My attention is also finely attuned to **NLP for societal benefit** and **efficient learning methodologies**.
 
-Publications
-------
-**If LLM Is the Wizard, Then Code Is the Wand: A Survey on How Code Empowers Large Language Models to Serve as Intelligent Agents \[[paper](https://arxiv.org/abs/2401.00812)]**  
-*Ke Yang\**, Jiateng Liu\*, John Wu, Chaoqi Yang, Yi R. Fung, Sha Li, Zixuan Huang, Xu Cao, Xingyao Wang, Yiquan Wang, Heng Ji, Chengxiang Zhai  
+<style>
+table, td, th, tr {
+   border: none!important;
+   font-size: 14px;
+}
+</style>
 
-**Prejudice or Foolishness: A Statistical Theory of Social Discrimination in Learning Machines \[[silde](/files/DISCREAL.pdf)\]**  
-Yiran Liu\*, *Ke Yang\**, Zehan Qi, Xiao Liu, Yang Yu (\* indicates equal contribution)  
-*In Submission*
-
-**ADEPT: A DEbiasing PrompT Framework \[[paper](https://arxiv.org/abs/2211.05414)]\[[code](https://github.com/EmpathYang/ADEPT)\]\[[slide](/files/ADEPT.pdf)\]**  
-*Ke Yang*, Charles Yu, Yi Fung, Manling Li, Heng Ji  
-AAAI-23
+<h2><span>Publications</span></h2>
+<table cellspacing="0" cellpadding="0">
+<tr>
+<td style="padding:0px;width:30%;vertical-align:middle">
+  <img src="../images/Prejudice-framework.pdf" height="100%" width="100%" style="border-style: none">
+</td>
+<td style="padding:20px;width:70%;vertical-align:middle">  
+  <h3>Prejudice and Caprice: A Statistical Framework for Measuring Social Discrimination in Large Language Models</h3>
+  Yiran Liu*, <b>Ke Yang</b>*, Zehan Qi, Xiao Liu, Yang Yu, Chengxiang Zhai (* indicates equal contributions)
+  <br>
+  <em>arXiv</em>, 2024
+  <br>
+  <div>
+    <a href="https://arxiv.org/abs/2401.00812">[paper]</a>
+  </div>  
+</td>
+</tr>  
+<tr>
+<td style="padding:0px;width:30%;vertical-align:middle">
+  <img src="../images/Wizard-agent.png" height="100%" width="100%" style="border-style: none">
+</td>
+<td style="padding:20px;width:70%;vertical-align:middle">  
+  <h3>If LLM Is the Wizard, Then Code Is the Wand: A Survey on How Code Empowers Large Language Models to Serve as Intelligent Agents</h3>
+  <b>Ke Yang</b>*, Jiateng Liu*, John Wu, Chaoqi Yang, Yi R. Fung, Sha Li, Zixuan Huang, Xu Cao, Xingyao Wang, Yiquan Wang, Heng Ji, Chengxiang Zhai  (* indicates equal contributions)
+  <br>
+  <em>arXiv</em>, 2024
+  <br>
+  <div>
+    <a href="https://arxiv.org/abs/2401.00812">[paper]</a>
+  </div>  
+</td>
+</tr>  
+<tr>
+<td style="padding:0px;width:30%;vertical-align:middle">
+  <img src="../images/ADEPT-results.png" height="100%" width="100%" style="border-style: none">
+</td>
+<td style="padding:20px;width:70%;vertical-align:middle">  
+  <h3>ADEPT: A DEbiasing PrompT Framework</h3>
+  <b>Ke Yang</b>, Charles Yu, Yi Fung, Manling Li, Heng Ji
+  <br>
+  <em>AAAI</em>, 2023
+  <br>
+  <div>
+    <a href="https://arxiv.org/abs/2211.05414">[paper]</a>
+    <a href="https://github.com/EmpathYang/ADEPT">[code]</a>
+    <a href="../files/ADEPT.pdf">[slide]</a>
+  </div>  
+</td>
+</tr>  
+</table>
 
 <span id='jump'>**Zempath**</span>
 ------
