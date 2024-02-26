@@ -23,7 +23,7 @@ table, td, th, tr {
 <table cellspacing="0" cellpadding="0">
 <tr>
 <td style="padding:0px;width:30%;vertical-align:middle">
-  <img src="../images/Prejudice-framework.pdf" height="100%" width="100%" style="border-style: none">
+  <img src="../images/Prejudice-framework.png" height="100%" width="100%" style="border-style: none">
 </td>
 <td style="padding:20px;width:70%;vertical-align:middle">  
   <h3>Prejudice and Caprice: A Statistical Framework for Measuring Social Discrimination in Large Language Models</h3>
