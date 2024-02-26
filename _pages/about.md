@@ -32,7 +32,7 @@ table, td, th, tr {
   <em>arXiv</em>, 2024
   <br>
   <div>
-    <a href="https://arxiv.org/abs/2401.00812">[paper]</a>
+    <a href="https://arxiv.org/abs/2402.15481">[paper]</a>
   </div>  
 </td>
 </tr>  
