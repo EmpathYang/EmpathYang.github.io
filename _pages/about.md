@@ -27,7 +27,7 @@ table, td, th, tr {
 </td>
 <td style="padding:20px;width:70%;vertical-align:middle">  
   <h3>Prejudice and Caprice: A Statistical Framework for Measuring Social Discrimination in Large Language Models</h3>
-  <p>Prejudice-Caprice Framework comprehensively measures discrimination in models by considering both their consistently biased preference and preference variation across diverse contexts</p>
+  <em style="font-family: 'Times New Roman', Times, serif; font-size: smaller;">Prejudice-Caprice Framework comprehensively measures discrimination in models by considering both their consistently biased preference and preference variation across diverse contexts</em>
   Yiran Liu*, <b>Ke Yang</b>*, Zehan Qi, Xiao Liu, Yang Yu, Chengxiang Zhai (* indicates equal contributions)
   <br>
   <em>arXiv</em>, 2024
@@ -43,7 +43,7 @@ table, td, th, tr {
 </td>
 <td style="padding:20px;width:70%;vertical-align:middle">  
   <h3>If LLM Is the Wizard, Then Code Is the Wand: A Survey on How Code Empowers Large Language Models to Serve as Intelligent Agents</h3>
-  <p>The Wizard survey explores the synergy between code and large language models (LLMs), highlighting how code empowers LLMs and benefits LLM when they serve as intelligent agents. We emphasized code’s readability, symbolic abstraction, and graph structure, presenting it as a valuable component in LLMs’ training corpus.</p>
+  <em style="font-family: 'Times New Roman', Times, serif; font-size: smaller;">The Wizard survey explores the synergy between code and large language models (LLMs), highlighting how code empowers LLMs and benefits LLM when they serve as intelligent agents. We emphasized code’s readability, symbolic abstraction, and graph structure, presenting it as a valuable component in LLMs’ training corpus.</em>
   <b>Ke Yang</b>*, Jiateng Liu*, John Wu, Chaoqi Yang, Yi R. Fung, Sha Li, Zixuan Huang, Xu Cao, Xingyao Wang, Yiquan Wang, Heng Ji, Chengxiang Zhai  (* indicates equal contributions)
   <br>
   <em>arXiv</em>, 2024
@@ -59,7 +59,7 @@ table, td, th, tr {
 </td>
 <td style="padding:20px;width:70%;vertical-align:middle">  
   <h3>ADEPT: A DEbiasing PrompT Framework</h3>
-  <p>ADEPT introduces a novel debaising loss function based on counterfactual bias and manifold learning insights. "Prompt" here refers to prompt-tuning (peft) rather than prompt-engineering.</p>
+  <em style="font-family: 'Times New Roman', Times, serif; font-size: smaller;">ADEPT introduces a novel debaising loss function based on counterfactual bias and manifold learning insights. "Prompt" here refers to prompt-tuning (peft) rather than prompt-engineering.</em>
   <b>Ke Yang</b>, Charles Yu, Yi Fung, Manling Li, Heng Ji
   <br>
   <em>AAAI</em>, 2023
