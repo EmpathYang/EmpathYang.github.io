@@ -39,3 +39,193 @@
 @import "vendor/font-awesome/brands";
 @import "vendor/magnific-popup/magnific-popup";
 @import "print";
+
+.paper-box {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    border-bottom: 1px #efefef solid;
+    padding: 2em 0 2em 0;
+    
+
+    .paper-box-image{
+        justify-content: center;
+        display: flex;
+        width: 100%;
+        order: 2;
+        img {
+            max-width: 400px;
+            box-shadow: 3px 3px 6px #888;
+            object-fit: cover;
+        }
+    }
+    
+    .paper-box-text{
+        max-width: 100%;
+        order: 1;
+    }
+    
+    @include breakpoint($medium) {
+        .paper-box-image{
+            justify-content: left;
+            min-width: 200px;
+            max-width: 40%;
+            order: 1;
+        }
+        
+        .paper-box-text{
+            justify-content: left;
+            padding-left: 2em;
+            max-width: 60%;
+            order: 2;
+        }
+
+    }
+
+
+}
+
+$scroll_offset : 2em;
+h1:before, .anchor:before { 
+    content: ''; 
+    display: block; 
+    position: relative; 
+    width: 0; 
+    height: $scroll_offset; 
+    margin-top: -$scroll_offset;
+}
+
+.badge {
+    padding-left: 1rem;
+    padding-right: 1rem;
+    position: absolute;
+    margin-top: .5em;
+    margin-left: -.5em;
+    color: white;
+    background-color: #5B8EC5;
+    font-size: .8em;
+}
+
+.paper-btn {
+    background-color: #e8b6bc; /* Blue background */
+    color: white; /* White text color */
+    padding: 0.12rem 0.37rem; /* Reduce padding to shrink button */
+    font-size: 0.775rem; /* Decrease font size */
+    line-height: 1.2; /* Adjust line height */
+    border-radius: 0.2rem; /* Reduce border radius */
+    border: 1px solid transparent; /* Transparent border */
+    cursor: pointer; /* Hand cursor on hover */
+    transition: background-color 0.15s ease-in-out, border-color 0.15s ease-in-out; /* Transition effect */
+    text-align: center; /* Center text */
+    vertical-align: middle; /* Vertical alignment */
+    user-select: none; /* Prevent text selection */
+    display: inline-block; /* Inline-block display */
+    margin: 0; /* Remove margins */
+    overflow: visible; /* Prevent content clipping */
+    text-transform: none; /* Default text case */
+}
+
+.paper-btn:hover {
+    background-color: darken(#e8b6bc, 10%); /* Darken background color on hover */
+}
+
+.paper-btn:focus, .paper-btn.focus {
+    box-shadow: 0 0 0 0.2rem rgba(224, 184, 188, 0.5); /* Shadow effect on focus */
+}
+
+.paper-btn:disabled, .paper-btn.disabled {
+    background-color: #6c757d; /* Background color when disabled */
+    border-color: #6c757d; /* Border color when disabled */
+}
+
+.code-btn {
+    background-color: #a5cec2; /* Blue background */
+    color: white; /* White text color */
+    padding: 0.12rem 0.37rem; /* Reduce padding to shrink button */
+    font-size: 0.775rem; /* Decrease font size */
+    line-height: 1.2; /* Adjust line height */
+    border-radius: 0.2rem; /* Reduce border radius */
+    border: 1px solid transparent; /* Transparent border */
+    cursor: pointer; /* Hand cursor on hover */
+    transition: background-color 0.15s ease-in-out, border-color 0.15s ease-in-out; /* Transition effect */
+    text-align: center; /* Center text */
+    vertical-align: middle; /* Vertical alignment */
+    user-select: none; /* Prevent text selection */
+    display: inline-block; /* Inline-block display */
+    margin: 0; /* Remove margins */
+    overflow: visible; /* Prevent content clipping */
+    text-transform: none; /* Default text case */
+}
+
+.code-btn:hover {
+    background-color: darken(#a5cec2, 10%); /* Darken background color on hover */
+}
+
+.code-btn:focus, .paper-btn.focus {
+    box-shadow: 0 0 0 0.2rem rgba(173, 205, 194, 0.5); /* Shadow effect on focus */
+}
+
+.code-btn:disabled, .paper-btn.disabled {
+    background-color: #6c757d; /* Background color when disabled */
+    border-color: #6c757d; /* Border color when disabled */
+}
+
+.slide-btn {
+    background-color: #f0d298; /* Blue background */
+    color: white; /* White text color */
+    padding: 0.12rem 0.37rem; /* Reduce padding to shrink button */
+    font-size: 0.775rem; /* Decrease font size */
+    line-height: 1.2; /* Adjust line height */
+    border-radius: 0.2rem; /* Reduce border radius */
+    border: 1px solid transparent; /* Transparent border */
+    cursor: pointer; /* Hand cursor on hover */
+    transition: background-color 0.15s ease-in-out, border-color 0.15s ease-in-out; /* Transition effect */
+    text-align: center; /* Center text */
+    vertical-align: middle; /* Vertical alignment */
+    user-select: none; /* Prevent text selection */
+    display: inline-block; /* Inline-block display */
+    margin: 0; /* Remove margins */
+    overflow: visible; /* Prevent content clipping */
+    text-transform: none; /* Default text case */
+}
+
+.slide-btn:hover {
+    background-color: darken(#f0d298, 10%); /* Darken background color on hover */
+}
+
+.slide-btn:focus, .slide-btn.focus {
+    box-shadow: 0 0 0 0.2rem rgba(212, 198, 234, 0.5); /* Shadow effect on focus */
+}
+
+.slide-btn:disabled, .slide-btn.disabled {
+    background-color: #6c757d; /* Background color when disabled */
+    border-color: #6c757d; /* Border color when disabled */
+}
+
+.tooltip-content {
+    font-size: 80%;
+    position: fixed;
+    padding: 8px 12px;
+    background-color: #f9f9f9; /* Light gray background */
+    color: #333; /* Dark text color */
+    border-radius: 4px; /* Rounded corners */
+    border: 1px solid #ccc; /* Border color */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Slight shadow effect */
+    z-index: 1000;
+    visibility: hidden;
+    transition: opacity 0.3s ease, visibility 0.3s ease;
+    max-width: 400px; /* Maximum width */
+    word-wrap: break-word; /* Allow word wrap if text is too long */
+    overflow: hidden; /* Prevent content overflow */
+    text-overflow: ellipsis; /* Show ellipsis if text overflows */
+    white-space: pre-wrap; /* Preserve white space */ 
+}
+
+/* Media query for small screens/mobile devices */
+@media screen and (max-width: 768px) {
+    .copy-btn, .tooltip-content {
+        display: none;
+    }
+}
