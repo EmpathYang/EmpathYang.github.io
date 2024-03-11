@@ -25,7 +25,7 @@ table, td, th, tr {
 <h3>Prejudice and Caprice: A Statistical Framework for Measuring Social Discrimination in Large Language Models</h3>
 <span style="font-family: Georgia, serif; font-size: smaller;">Yiran Liu\*, <b>Ke Yang</b>\*, Zehan Qi, Xiao Liu, Yang Yu, Chengxiang Zhai (* indicates equal contributions)</span>
 <br>
-<a href='https://arxiv.org/abs/2402.15481'><button class="paper-btn">PAPER</button></a>
+<a href='https://arxiv.org/abs/2402.15481'><button class="paper-btn">PAPER</button></a> <a href='https://github.com/EmpathYang/Prejudice-Caprice-Framework/'><button class="code-btn">CODE</button></a>
 <br>
 <em style="font-family: 'Times New Roman', Times, serif; font-size: smaller;">Prejudice-Caprice Framework comprehensively measures discrimination in models by considering both their consistently biased preference and preference variation across diverse contexts</em>
 </div>
@@ -47,7 +47,7 @@ table, td, th, tr {
 <h3>ADEPT: A DEbiasing PrompT Framework</h3>
 <span style="font-family: Georgia, serif; font-size: smaller;"><b>Ke Yang</b>, Charles Yu, Yi Fung, Manling Li, Heng Ji</span>
 <br>
-<a href='https://arxiv.org/abs/2211.05414'><button class="paper-btn">PAPER</button></a> <a href='https://github.com/EmpathYang/ADEPT'><button class="code-btn">CODE</button></a> <a href='files/ADEPT.pdf'><button class="slide-btn">SLIDE</button></a>
+<a href='https://arxiv.org/abs/2211.05414'><button class="paper-btn">PAPER</button></a> <a href='https://github.com/EmpathYang/ADEPT/'><button class="code-btn">CODE</button></a> <a href='files/ADEPT.pdf'><button class="slide-btn">SLIDE</button></a>
 <br>
 <em style="font-family: 'Times New Roman', Times, serif; font-size: smaller;">ADEPT introduces a novel debaising loss function based on counterfactual bias and manifold learning insights. "Prompt" here refers to prompt-tuning (peft) rather than prompt-engineering.</em>
 </div>
