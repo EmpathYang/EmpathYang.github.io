@@ -23,7 +23,7 @@ table, td, th, tr {
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">arXiv 2024</div><img src='/images/Prejudice-framework.png' alt="2024prejudice" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 <h3>Prejudice and Caprice: A Statistical Framework for Measuring Social Discrimination in Large Language Models</h3>
-  Yiran Liu*, <b>Ke Yang</b>*, Zehan Qi, Xiao Liu, Yang Yu, Chengxiang Zhai (* indicates equal contributions)
+Yiran Liu\*, <b>Ke Yang</b>\*, Zehan Qi, Xiao Liu, Yang Yu, Chengxiang Zhai (* indicates equal contributions)
 <br>
 <a href='https://arxiv.org/abs/2402.15481'><button class="paper-btn">PAPER</button></a>
 <br>
@@ -31,61 +31,27 @@ table, td, th, tr {
 </div>
 </div>
 
-<table cellspacing="0" cellpadding="0">
-<tr>
-<td style="padding:0px;width:30%;vertical-align:middle">
-  <img src="../images/Prejudice-framework.png" height="100%" width="100%" style="border-style: none">
-</td>
-<td style="padding:20px;width:70%;vertical-align:middle">  
-  <h3>Prejudice and Caprice: A Statistical Framework for Measuring Social Discrimination in Large Language Models</h3>
-  <em style="font-family: 'Times New Roman', Times, serif; font-size: smaller;">Prejudice-Caprice Framework comprehensively measures discrimination in models by considering both their consistently biased preference and preference variation across diverse contexts</em>
-  <br>
-  Yiran Liu*, <b>Ke Yang</b>*, Zehan Qi, Xiao Liu, Yang Yu, Chengxiang Zhai (* indicates equal contributions)
-  <br>
-  <em>arXiv</em>, 2024
-  <br>
-  <div>
-    <a href="https://arxiv.org/abs/2402.15481">[paper]</a>
-  </div>  
-</td>
-</tr>  
-<tr>
-<td style="padding:0px;width:30%;vertical-align:middle">
-  <img src="../images/Wizard-agent.png" height="100%" width="100%" style="border-style: none">
-</td>
-<td style="padding:20px;width:70%;vertical-align:middle">  
-  <h3>If LLM Is the Wizard, Then Code Is the Wand: A Survey on How Code Empowers Large Language Models to Serve as Intelligent Agents</h3>
-  <em style="font-family: 'Times New Roman', Times, serif; font-size: smaller;">The Wizard survey explores the synergy between code and large language models (LLMs), highlighting how code empowers LLMs and benefits LLM when they serve as intelligent agents. We emphasized code’s readability, symbolic abstraction, and graph structure, presenting it as a valuable component in LLMs’ training corpus.</em>
-  <br>
-  <b>Ke Yang</b>*, Jiateng Liu*, John Wu, Chaoqi Yang, Yi R. Fung, Sha Li, Zixuan Huang, Xu Cao, Xingyao Wang, Yiquan Wang, Heng Ji, Chengxiang Zhai  (* indicates equal contributions)
-  <br>
-  <em>arXiv</em>, 2024
-  <br>
-  <div>
-    <a href="https://arxiv.org/abs/2401.00812">[paper]</a>
-  </div>  
-</td>
-</tr>  
-<tr>
-<td style="padding:0px;width:30%;vertical-align:middle">
-  <img src="../images/ADEPT-framework.png" height="100%" width="100%" style="border-style: none">
-</td>
-<td style="padding:20px;width:70%;vertical-align:middle">  
-  <h3>ADEPT: A DEbiasing PrompT Framework</h3>
-  <em style="font-family: 'Times New Roman', Times, serif; font-size: smaller;">ADEPT introduces a novel debaising loss function based on counterfactual bias and manifold learning insights. "Prompt" here refers to prompt-tuning (peft) rather than prompt-engineering.</em>
-  <br>
-  <b>Ke Yang</b>, Charles Yu, Yi Fung, Manling Li, Heng Ji
-  <br>
-  <em>AAAI</em>, 2023
-  <br>
-  <div>
-    <a href="https://arxiv.org/abs/2211.05414">[paper]</a>
-    <a href="https://github.com/EmpathYang/ADEPT">[code]</a>
-    <a href="../files/ADEPT.pdf">[slide]</a>
-  </div>  
-</td>
-</tr>  
-</table>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ICLR Workshop 2024</div><img src='/images/Wizard-agent.png' alt="yang2024llm" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+<h3>If LLM Is the Wizard, Then Code Is the Wand: A Survey on How Code Empowers Large Language Models to Serve as Intelligent Agents</h3>
+<b>Ke Yang</b>\*, Jiateng Liu\*, John Wu, Chaoqi Yang, Yi R. Fung, Sha Li, Zixuan Huang, Xu Cao, Xingyao Wang, Yiquan Wang, Heng Ji, Chengxiang Zhai  (* indicates equal contributions)
+<br>
+<a href='https://arxiv.org/abs/2401.00812'><button class="paper-btn">PAPER</button></a>
+<br>
+<em style="font-family: 'Times New Roman', Times, serif; font-size: smaller;">The Wizard survey explores the synergy between code and large language models (LLMs), highlighting how code empowers LLMs and benefits LLM when they serve as intelligent agents. We emphasized code’s readability, symbolic abstraction, and graph structure, presenting it as a valuable component in LLMs’ training corpus.</em>
+</div>
+</div>
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">AAAI 23</div><img src='/images/ADEPT-framework.png' alt="yang2022adept" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+<h3>ADEPT: A DEbiasing PrompT Framework</h3>
+<b>Ke Yang</b>, Charles Yu, Yi Fung, Manling Li, Heng Ji
+<br>
+<a href='https://arxiv.org/abs/2211.05414'><button class="paper-btn">PAPER</button></a> <a href='https://github.com/EmpathYang/ADEPT'><button class="code-btn">CODE</button></a> <a href='files/ADEPT.pdf'><button class="slide-btn">SLIDE</button></a>
+<br>
+<em style="font-family: 'Times New Roman', Times, serif; font-size: smaller;">ADEPT introduces a novel debaising loss function based on counterfactual bias and manifold learning insights. "Prompt" here refers to prompt-tuning (peft) rather than prompt-engineering.</em>
+</div>
+</div>
 
 <h2>
     <img src="/images/Zempath.png" alt="Icon" style="display: inline-block; vertical-align: middle; width: 50px;">
