@@ -23,7 +23,7 @@ table, td, th, tr {
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">arXiv 2024</div><img src='/images/Prejudice-framework.png' alt="2024prejudice" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 <h3>Prejudice and Caprice: A Statistical Framework for Measuring Social Discrimination in Large Language Models</h3>
-<em style="font-family: 'Comic Sans MS', Georgia, serif; font-size: smaller;">Yiran Liu\*, <b>Ke Yang</b>\*, Zehan Qi, Xiao Liu, Yang Yu, Chengxiang Zhai (* indicates equal contributions)</em>
+<span style="font-family: Georgia, serif; font-size: smaller;">Yiran Liu\*, <b>Ke Yang</b>\*, Zehan Qi, Xiao Liu, Yang Yu, Chengxiang Zhai (* indicates equal contributions)</span>
 <br>
 <a href='https://arxiv.org/abs/2402.15481'><button class="paper-btn">PAPER</button></a>
 <br>
@@ -34,7 +34,7 @@ table, td, th, tr {
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">ICLR Workshop 2024</div><img src='/images/Wizard-agent.png' alt="yang2024llm" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 <h3>If LLM Is the Wizard, Then Code Is the Wand: A Survey on How Code Empowers Large Language Models to Serve as Intelligent Agents</h3>
-<em style="font-family: 'Comic Sans MS', Georgia, serif; font-size: smaller;"><b>Ke Yang</b>\*, Jiateng Liu\*, John Wu, Chaoqi Yang, Yi R. Fung, Sha Li, Zixuan Huang, Xu Cao, Xingyao Wang, Yiquan Wang, Heng Ji, Chengxiang Zhai  (* indicates equal contributions)</em>
+<span style="font-family: Georgia, serif; font-size: smaller;"><b>Ke Yang</b>\*, Jiateng Liu\*, John Wu, Chaoqi Yang, Yi R. Fung, Sha Li, Zixuan Huang, Xu Cao, Xingyao Wang, Yiquan Wang, Heng Ji, Chengxiang Zhai  (* indicates equal contributions)</span>
 <br>
 <a href='https://arxiv.org/abs/2401.00812'><button class="paper-btn">PAPER</button></a>
 <br>
@@ -45,7 +45,7 @@ table, td, th, tr {
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">AAAI 23</div><img src='/images/ADEPT-framework.png' alt="yang2022adept" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 <h3>ADEPT: A DEbiasing PrompT Framework</h3>
-<em style="font-family: 'Comic Sans MS', Georgia, serif; font-size: smaller;"><b>Ke Yang</b>, Charles Yu, Yi Fung, Manling Li, Heng Ji</em>
+<span style="font-family: Georgia, serif; font-size: smaller;"><b>Ke Yang</b>, Charles Yu, Yi Fung, Manling Li, Heng Ji</span>
 <br>
 <a href='https://arxiv.org/abs/2211.05414'><button class="paper-btn">PAPER</button></a> <a href='https://github.com/EmpathYang/ADEPT'><button class="code-btn">CODE</button></a> <a href='files/ADEPT.pdf'><button class="slide-btn">SLIDE</button></a>
 <br>
