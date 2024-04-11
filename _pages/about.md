@@ -27,7 +27,7 @@ table, td, th, tr {
 <br>
 <a href='https://arxiv.org/abs/2402.15481'><button class="paper-btn">PAPER</button></a> <a href='https://github.com/EmpathYang/Prejudice-Caprice-Framework/'><button class="code-btn">CODE</button></a>
 <br>
-<em style="font-family: 'Times New Roman', Times, serif; font-size: smaller;">Prejudice-Caprice Framework comprehensively measures discrimination in models by considering both their consistently biased preference and preference variation across diverse contexts</em>
+<em style="font-family: 'Times New Roman', Times, serif; font-size: smaller;">Prejudice-Caprice Framework comprehensively measures discrimination in models by considering both their consistently biased preference and preference variation across diverse contexts.</em>
 </div>
 </div>
 
