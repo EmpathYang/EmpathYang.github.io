@@ -8,9 +8,9 @@ redirect_from:
   - /about.html
 ---
 
-Hello there! I'm Ke Yang (杨可), currently a second-year Ph.D. at UIUC under the guidance of Professor [Chengxiang Zhai](http://czhai.cs.illinois.edu/). I hold a bachelor's degree in Automation from Tsinghua University, where I had the privilege of contributing as a research assistant within Professor [Jie Tang](http://keg.cs.tsinghua.edu.cn/jietang/)'s research group. During the summer of 2022, I had the opportunity to intern with Professor [Heng Ji](http://blender.cs.illinois.edu/hengji.html)'s group at UIUC. I interned at Amazon in 2024 summer.
+Hello there! I'm Ke Yang (杨可), currently a second-year Ph.D. at UIUC under the guidance of Professor [Chengxiang Zhai](http://czhai.cs.illinois.edu/). I hold a bachelor's degree from Tsinghua University, where I contributed as a research assistant in Professor [Jie Tang](http://keg.cs.tsinghua.edu.cn/jietang/)'s research group. In 2022 summer, I had the opportunity to intern with Professor [Heng Ji](http://blender.cs.illinois.edu/hengji.html)'s group at UIUC. I interned at Amazon in 2024 summer.
 
-My academic journey revolves around natural language processing, with special fervor for the domains of **intelligent agents**, **language models**, **graph neural networks**, and **multimodality foundation models**. During the winter break of 2022, I orchestrated a collaboration with a team of skilled software engineers. Our collective efforts culminated in the creation of [*Zempath*](#jump), an innovative online social platform that introduces chatbots endowed with distinctive personalities. My attention is also finely attuned to **NLP for societal benefit** and **efficient learning methodologies**.
+My academic journey revolves around natural language processing, with a special fervor for **intelligent agents**, **language models**, **graph neural networks**, and **multimodality foundation models**. During the winter break of 2022, I orchestrated a collaboration with a team of skilled software engineers. Our collective efforts culminated in the creation of [*Zempath*](#jump), an innovative online social platform that introduces chatbots endowed with distinctive personalities. My attention is also finely attuned to **NLP for societal benefit** and **efficient learning methodologies**.
 
 <style>
 table, td, th, tr {
@@ -18,18 +18,18 @@ table, td, th, tr {
    font-size: 14px;
 }
 </style>
-
 <h2><span>Main Publications</span></h2>
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">arXiv 2024</div><img src='/images/Prejudice-framework.png' alt="2024prejudice" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
-<h3>Prejudice and Caprice: A Statistical Framework for Measuring Social Discrimination in Large Language Models</h3>
+<h3>Prejudice and Volatility: A Statistical Framework for Measuring Social Discrimination in Large Language Models</h3>
 <span style="font-family: Georgia, serif; font-size: smaller;">Yiran Liu\*, <b>Ke Yang</b>\*, Zehan Qi, Xiao Liu, Yang Yu, Chengxiang Zhai (* indicates equal contributions)</span>
 <br>
-<a href='https://arxiv.org/abs/2402.15481'><button class="paper-btn">PAPER</button></a> <a href='https://github.com/EmpathYang/Prejudice-Caprice-Framework/'><button class="code-btn">CODE</button></a>
+<a href='https://arxiv.org/abs/2402.15481'><button class="paper-btn">PAPER</button></a> <a href='https://github.com/EmpathYang/Prejudice-Volatility-Framework'><button class="code-btn">CODE</button></a>
 <br>
-<em style="font-family: 'Times New Roman', Times, serif; font-size: smaller;">Prejudice-Caprice Framework comprehensively measures discrimination in models by considering both their consistently biased preference and preference variation across diverse contexts.</em>
+<em style="font-family: 'Times New Roman', Times, serif; font-size: smaller;">Prejudice-Volatility Framework comprehensively measures discrimination in models by considering both their consistently biased preference and preference variation across diverse contexts.</em>
 </div>
 </div>
+
 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">ICLR Workshop 2024</div><img src='/images/Wizard-agent.png' alt="yang2024llm" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
