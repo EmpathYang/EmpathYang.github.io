@@ -19,7 +19,7 @@ table, td, th, tr {
 }
 </style>
 <h2><span>Main Publications</span></h2>
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">arXiv 2024</div><img src='/images/Prejudice-framework.png' alt="2024prejudice" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">NeurIPS 2024</div><img src='/images/Prejudice-framework.png' alt="2024prejudice" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 <h3>Prejudice and Volatility: A Statistical Framework for Measuring Social Discrimination in Large Language Models</h3>
 <span style="font-family: Georgia, serif; font-size: smaller;">Yiran Liu\*, <b>Ke Yang</b>\*, Zehan Qi, Xiao Liu, Yang Yu, Chengxiang Zhai (* indicates equal contributions)</span>
