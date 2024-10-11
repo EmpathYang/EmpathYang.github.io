@@ -24,7 +24,7 @@ table, td, th, tr {
 <h3>Prejudice and Volatility: A Statistical Framework for Measuring Social Discrimination in Large Language Models</h3>
 <span style="font-family: Georgia, serif; font-size: smaller;">Yiran Liu\*, <b>Ke Yang</b>\*, Zehan Qi, Xiao Liu, Yang Yu, Chengxiang Zhai (* indicates equal contributions)</span>
 <br>
-<a href='https://arxiv.org/abs/2402.15481'><button class="paper-btn">PAPER</button></a> <a href='https://github.com/EmpathYang/Prejudice-Volatility-Framework'><button class="code-btn">CODE</button></a>
+<a href='https://arxiv.org/abs/2402.15481'><button class="paper-btn">PAPER</button></a> <a href='https://github.com/EmpathYang/Prejudice-Volatility-Framework'><button class="code-btn">CODE</button></a> <a href='/files/PVF_note.pdf'><button class="note-btn">NOTE</button></a>
 <br>
 <em style="font-family: 'Times New Roman', Times, serif; font-size: smaller;">Prejudice-Volatility Framework comprehensively measures discrimination in models by considering both their consistently biased preference and preference variation across diverse contexts.</em>
 </div>

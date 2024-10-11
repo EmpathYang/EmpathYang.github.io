@@ -163,11 +163,11 @@ h1:before, .anchor:before {
     background-color: darken(#a5cec2, 10%); /* Darken background color on hover */
 }
 
-.code-btn:focus, .paper-btn.focus {
+.code-btn:focus, .code-btn.focus {
     box-shadow: 0 0 0 0.2rem rgba(173, 205, 194, 0.5); /* Shadow effect on focus */
 }
 
-.code-btn:disabled, .paper-btn.disabled {
+.code-btn:disabled, .code-btn.disabled {
     background-color: #6c757d; /* Background color when disabled */
     border-color: #6c757d; /* Border color when disabled */
 }
@@ -203,6 +203,39 @@ h1:before, .anchor:before {
     background-color: #6c757d; /* Background color when disabled */
     border-color: #6c757d; /* Border color when disabled */
 }
+
+.note-btn {
+    background-color: #bbdefb; /* Light blue background */
+    color: white; /* White text color */
+    padding: 0.12rem 0.37rem; /* Reduce padding to shrink button */
+    font-size: 0.775rem; /* Decrease font size */
+    line-height: 1.2; /* Adjust line height */
+    border-radius: 0.2rem; /* Reduce border radius */
+    border: 1px solid transparent; /* Transparent border */
+    cursor: pointer; /* Hand cursor on hover */
+    transition: background-color 0.15s ease-in-out, border-color 0.15s ease-in-out; /* Transition effect */
+    text-align: center; /* Center text */
+    vertical-align: middle; /* Vertical alignment */
+    user-select: none; /* Prevent text selection */
+    display: inline-block; /* Inline-block display */
+    margin: 0; /* Remove margins */
+    overflow: visible; /* Prevent content clipping */
+    text-transform: none; /* Default text case */
+}
+
+.note-btn:hover {
+    background-color: #90caf9; /* Darken background color on hover */
+}
+
+.note-btn:focus, .note-btn.focus {
+    box-shadow: 0 0 0 0.2rem rgba(187, 222, 251, 0.5); /* Shadow effect on focus */
+}
+
+.note-btn:disabled, .note-btn.disabled {
+    background-color: #6c757d; /* Background color when disabled */
+    border-color: #6c757d; /* Border color when disabled */
+}
+
 
 .tooltip-content {
     font-size: 80%;
