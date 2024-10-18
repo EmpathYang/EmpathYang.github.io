@@ -19,6 +19,17 @@ table, td, th, tr {
 }
 </style>
 <h2><span>Main Publications</span></h2>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">NeurIPS 2024</div><img src='/images/AgentOccam-overview.png' alt="yang2024agentoccamsimplestrongbaseline" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+<h3>AgentOccam: A Simple Yet Strong Baseline for LLM-Based Web Agents</h3>
+<span style="font-family: Georgia, serif; font-size: smaller;">Ke Yang, Yao Liu, Sapana Chaudhary, Rasool Fakoor, Pratik Chaudhari, George Karypis, Huzefa Rangwala</span>
+<br>
+<a href='https://arxiv.org/abs/2410.13825'><button class="paper-btn">PAPER</button></a>
+<br>
+<em style="font-family: 'Times New Roman', Times, serif; font-size: smaller;">Our AgentOccam surpasses the previous state-of-the-art and concurrent LLM-based web agent with its observation and action space alignment. We achieve this without using in-context examples, new agent roles, online feedback or search strategies.</em>
+</div>
+</div>
+
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">NeurIPS 2024</div><img src='/images/Prejudice-framework.png' alt="2024prejudice" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 <h3>Prejudice and Volatility: A Statistical Framework for Measuring Social Discrimination in Large Language Models</h3>
@@ -29,7 +40,6 @@ table, td, th, tr {
 <em style="font-family: 'Times New Roman', Times, serif; font-size: smaller;">Prejudice-Volatility Framework comprehensively measures discrimination in models by considering both their consistently biased preference and preference variation across diverse contexts.</em>
 </div>
 </div>
-
 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">ICLR Workshop 2024</div><img src='/images/Wizard-agent.png' alt="yang2024llm" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
