@@ -22,7 +22,7 @@ table, td, th, tr {
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">arXiv 2024</div><img src='/images/AgentOccam-overview.png' alt="yang2024agentoccamsimplestrongbaseline" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 <h3>AgentOccam: A Simple Yet Strong Baseline for LLM-Based Web Agents</h3>
-<span style="font-family: Georgia, serif; font-size: smaller;">Ke Yang, Yao Liu, Sapana Chaudhary, Rasool Fakoor, Pratik Chaudhari, George Karypis, Huzefa Rangwala</span>
+<span style="font-family: Georgia, serif; font-size: smaller;"><b>Ke Yang</b>, Yao Liu, Sapana Chaudhary, Rasool Fakoor, Pratik Chaudhari, George Karypis, Huzefa Rangwala</span>
 <br>
 <a href='https://arxiv.org/abs/2410.13825'><button class="paper-btn">PAPER</button></a>
 <br>
