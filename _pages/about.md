@@ -29,7 +29,7 @@ table, td, th, tr {
 <br>
 <a href='https://arxiv.org/abs/2501.00522'><button class="paper-btn">PAPER</button></a> <a href='https://github.com/EmpathYang/TinyHelen'><button class="code-btn">CODE</button></a>
 <br>
-<em style="font-family: 'Times New Roman', Times, serif; font-size: smaller;">We train and evaluate tiny language models (LMs) using a novel text dataset with systematically simplified vocabularies and linguistic structures, mimicking how children learn language through simplified environments as part of their initial curriculum.</em>
+<em style="font-family: 'Times New Roman', Times, serif; font-size: smaller;">We train and evaluate tiny language models using a novel text dataset with systematically simplified vocabularies and linguistic structures, mimicking how children learn language through simplified environments as part of their initial curriculum.</em>
 </div>
 </div>
 
