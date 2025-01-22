@@ -29,7 +29,7 @@ table, td, th, tr {
 <br>
 <a href='https://arxiv.org/abs/2501.00522'><button class="paper-btn">PAPER</button></a> <a href='https://github.com/EmpathYang/TinyHelen'><button class="code-btn">CODE</button></a>
 <br>
-<em style="font-family: 'Times New Roman', Times, serif; font-size: smaller;">We train and evaluate tiny language models using a novel text dataset with systematically simplified vocabularies and linguistic structures, mimicking how children learn language through simplified environments as part of their initial curriculum.</em>
+<em style="font-family: 'Times New Roman', Times, serif; font-size: smaller;">We train and evaluate tiny language models using a text dataset with simplified vocabularies and linguistic structures, mimicking how children learn language through simplified environments as part of their initial curriculum.</em>
 </div>
 </div>
 
@@ -40,7 +40,7 @@ table, td, th, tr {
 <br>
 <a href='https://arxiv.org/abs/2410.13825'><button class="paper-btn">PAPER</button></a>
 <br>
-<em style="font-family: 'Times New Roman', Times, serif; font-size: smaller;">Our AgentOccam surpasses the previous state-of-the-art and concurrent LLM-based web agent with its observation and action space alignment. We achieve this without using in-context examples, new agent roles, online feedback or search strategies.</em>
+<em style="font-family: 'Times New Roman', Times, serif; font-size: smaller;">AgentOccam surpasses the previous state-of-the-art and concurrent LLM-based web agent with its observation and action space alignment. We achieve this without using in-context examples, new agent roles, online feedback or search strategies.</em>
 </div>
 </div>
 
@@ -49,7 +49,7 @@ table, td, th, tr {
 <h3>Bias and Volatility: A Statistical Framework for Evaluating Large Language Model's Stereotypes and the Associated Generation Inconsistency</h3>
 <span style="font-family: Georgia, serif; font-size: smaller;">Yiran Liu\*, <b>Ke Yang</b>\*, Zehan Qi, Xiao Liu, Yang Yu, ChengXiang Zhai (* indicates equal contributions)</span>
 <br>
-<a href='https://arxiv.org/abs/2402.15481'><button class="paper-btn">PAPER</button></a> <a href='https://github.com/EmpathYang/Prejudice-Volatility-Framework'><button class="code-btn">CODE</button></a> <a href='/files/PVF_note.pdf'><button class="note-btn">NOTE</button></a>
+<a href='https://arxiv.org/abs/2402.15481'><button class="paper-btn">PAPER</button></a> <a href='https://github.com/EmpathYang/Prejudice-Volatility-Framework'><button class="code-btn">CODE</button></a> <a href='/files/PVF_note.pdf'><button class="note-btn">NOTE</button></a> <a href='files/BVF.pdf'><button class="slide-btn">SLIDE</button></a>
 <br>
 <em style="font-family: 'Times New Roman', Times, serif; font-size: smaller;">Bias-Volatility Framework measures discrimination in models by considering both their consistently biased preference and preference variation across contexts.</em>
 </div>
