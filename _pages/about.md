@@ -38,7 +38,7 @@ table, td, th, tr {
 <h3>AgentOccam: A Simple Yet Strong Baseline for LLM-Based Web Agents</h3>
 <span style="font-family: Georgia, serif; font-size: smaller;"><b>Ke Yang</b>, Yao Liu, Sapana Chaudhary, Rasool Fakoor, Pratik Chaudhari, George Karypis, Huzefa Rangwala</span>
 <br>
-<a href='https://arxiv.org/abs/2410.13825'><button class="paper-btn">PAPER</button></a>
+<a href='https://arxiv.org/abs/2410.13825'><button class="paper-btn">PAPER</button></a> <a href='https://github.com/amazon-science/AgentOccam'><button class="code-btn">CODE</button></a>
 <br>
 <em style="font-family: 'Times New Roman', Times, serif; font-size: smaller;">AgentOccam surpasses the previous state-of-the-art and concurrent LLM-based web agent with its observation and action space alignment. We achieve this without using in-context examples, new agent roles, online feedback or search strategies.</em>
 </div>
