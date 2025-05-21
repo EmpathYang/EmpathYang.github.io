@@ -22,6 +22,18 @@ table, td, th, tr {
 </style>
 <h2><span>Selected Publications</span></h2>
 
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">arXiv 2025</div><img src='/images/JIR-Arena.png' alt="yang2025jirarenabenchmarkdatasetjustintime" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+<h3>JIR-Arena: The First Benchmark Dataset for Just-in-time Information Recommendation</h3>
+<span style="font-family: Georgia, serif; font-size: smaller;"><b>Ke Yang</b>, Kevin Ros, Shankar Kumar Senthil Kumar, ChengXiang Zhai</span>
+<br>
+<a href='https://arxiv.org/abs/2505.13550'><button class="paper-btn">PAPER</button></a> <a href='https://github.com/EmpathYang/JIR-Arena'><button class="code-btn">CODE</button></a>
+<br>
+<em style="font-family: 'Times New Roman', Times, serif; font-size: smaller;">We introduce Just-in-time Information Recommendation, a transformative AI-driven information service that proactively addresses user information gaps with minimal user effort.</em>
+</div>
+</div>
+
+
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">arXiv 2024</div><img src='/images/TinyHelen.png' alt="yang2024tinyhelenscurriculumtrainingevaluating" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 <h3>TinyHelen's First Curriculum: Training and Evaluating Tiny Language Models in a Simpler Language Environment</h3>
