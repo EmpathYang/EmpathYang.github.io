@@ -22,6 +22,17 @@ table, td, th, tr {
 </style>
 <h2><span>Selected Publications</span></h2>
 
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">arXiv 2025</div><img src='/images/AIEconomics.png' alt="yang2025principlesaiagenteconomics" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+<h3>Ten Principles of AI Agent Economics</h3>
+<span style="font-family: Georgia, serif; font-size: smaller;"><b>Ke Yang</b>, ChengXiang Zhai</span>
+<br>
+<a href='https://arxiv.org/abs/2505.20273'><button class="paper-btn">PAPER</button></a>
+<br>
+<em style="font-family: 'Times New Roman', Times, serif; font-size: smaller;">We propose ten principles of AI agent economics, offering a framework to understand how AI agents make decisions, influence social interactions, and participate in the broader economy.</em>
+</div>
+</div>
+
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">arXiv 2025</div><img src='/images/JIR-Arena.png' alt="yang2025jirarenabenchmarkdatasetjustintime" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 <h3>JIR-Arena: The First Benchmark Dataset for Just-in-time Information Recommendation</h3>
