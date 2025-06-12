@@ -14,28 +14,10 @@ I work on **intelligent agents**, **language models**, **graph neural networks**
 
 During the winter break of 2022, I collaborated with two of my undergrad classmates and created [*Zempath*](#jump), an online social platform incorporated with our trained chatbots with distinctive personalities.
 
-<style>
-.news-section {
-  margin-top: 10px;
-  margin-bottom: 20px;
-  font-size: 13px;
-  line-height: 1.4;
-}
-.news-section ul {
-  padding-left: 20px;
-  margin: 5px 0;
-}
-.news-section li {
-  margin-bottom: 4px;
-}
-</style>
-<div class="news-section">
-<h2><span>News</span></h2>
-<ul>
-  <li><strong>2025-05:</strong> 👩‍💻 Joined Microsoft Research as a summer intern. Hello, Redmond! </li>
-  <li><strong>2025-05:</strong> New preprint on <a href="https://arxiv.org/abs/2505.13550" target="_blank">benchmarking Just-in-time Information Recommendation</a>, which's about AI assistants proactively recommend right information at the right time. 🕵 </li>
-</ul>
-</div>
+News
+------
+* 2025-05: 👩‍💻 Joined Microsoft Research as a summer intern. Hello, Redmond! 
+* 2025-05: New preprint on [benchmarking Just-in-time Information Recommendation](https://arxiv.org/abs/2505.13550), which's about AI assistants proactively recommend right information at the right time. 🕵 
 
 
 <style>
