@@ -16,8 +16,9 @@ During the winter break of 2022, I collaborated with two of my undergrad classma
 
 News
 ------
+* 2025-05: New preprint: [Ten Principles for the Economics of AI Agents](https://arxiv.org/abs/2505.20273). My first perspective paper—started out happily reflecting on AI agent incentives, then halfway through realized: oh no, I’ve been working on something kind of dangerous this whole time. 😅 Debugging welcome. 🧵
 * 2025-05: 👩‍💻 Joined Microsoft Research as a summer intern. Hello, Redmond! 
-* 2025-05: New preprint on [benchmarking Just-in-time Information Recommendation](https://arxiv.org/abs/2505.13550), which's about AI assistants proactively recommend right information at the right time. 🕵 
+* 2025-05: New preprint on [benchmarking Just-in-time Information Recommendation](https://arxiv.org/abs/2505.13550), which is about AI assistants proactively recommending the right information at the right time. 🕵 
 
 
 <style>
