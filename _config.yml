@@ -82,7 +82,7 @@ analytics:
 author:
   name             : "Ke Yang"
   avatar           : "profile.jpg"
-  bio              : "CS Ph.D. Student at UIUC.\nKnowledge underpins reasoning."
+  bio              : "CS Ph.D. Candidate at UIUC.\nKnowledge underpins reasoning."
   location         : "IL, US"
   employer         :
   pubmed           :
@@ -102,7 +102,7 @@ author:
   instagram        :
   impactstory      :
   lastfm           :
-  linkedin         :
+  linkedin         : "ke-yang-93a58529b"
   orcid            :
   pinterest        :
   soundcloud       :
@@ -115,6 +115,7 @@ author:
   xing             :
   youtube          :
   wikipedia        :
+  zhihu            : "empathyang"
 
 
 # Reading Files

@@ -8,11 +8,11 @@ redirect_from:
   - /about.html
 ---
 
-Hello there! I'm Ke Yang (杨可), currently a second-year Ph.D. at UIUC under the guidance of Professor [ChengXiang Zhai](http://czhai.cs.illinois.edu/). I obtain my bachelor's degree from Tsinghua University. I interned with Professor [Heng Ji](http://blender.cs.illinois.edu/hengji.html)'s group at UIUC in 2022 summer, and at Amazon AWS in 2024 summer.
+Hello there! I'm Ke Yang (杨可), currently a third-year Ph.D. at UIUC under the guidance of Professor [ChengXiang Zhai](http://czhai.cs.illinois.edu/). I obtained my bachelor's degree from Tsinghua University. I previously interned *i)* with Professor [Heng Ji](http://blender.cs.illinois.edu/hengji.html)'s group at UIUC, *ii)* at Amazon AWS, and *iii)* with the [Deep Learning Group](https://www.microsoft.com/en-us/research/group/deep-learning-group/) at Microsoft Research.
 
-I work on **intelligent agents**, **language models**, **graph neural networks**, and **multimodality foundation models** (of top interest). I'm also keen on **NLP for societal benefit**.
+I work on **AI agents**, **language models**, **information retrieval**, and **multimodality foundation models** (of top interest). I'm also keen on resolving **AI bias and discrimination**. Always open to collaboration — feel free to get in touch!
 
-During the winter break of 2022, I collaborated with two of my undergrad classmates and created [*Zempath*](#jump), an online social platform incorporated with our trained chatbots with distinctive personalities.
+During the winter break of 2022, I collaborated with two of my undergrad classmates to create Zempath, an online social platform incorporating our trained chatbots with distinctive personalities.
 
 News
 ------
