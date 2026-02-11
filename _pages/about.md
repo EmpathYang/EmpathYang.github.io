@@ -31,24 +31,24 @@ table, td, th, tr {
 <h2><span>Selected Publications</span></h2>
 
 <div class='paper-box'>
-  <div class='paper-box-image'>
-    <div>
-      <div class="badge">arXiv 2026</div>
-      <img src='/images/PlugMem.png' alt="yang2026plugmem" width="100%">
-    </div>
-  </div>
-  <div class='paper-box-text' markdown="1">
-    <h3>PlugMem: A Task-Agnostic Plugin Memory Module for LLM Agents</h3>
-    <span style="font-family: Georgia, serif; font-size: smaller;">
-      <b>Ke Yang\*</b>, Zixi Chen\*, Xuan He\*, Jize Jiang\*, Michel Galley, Chenglong Wang, Jianfeng Gao, Jiawei Han, ChengXiang Zhai (* Equal contribution)</span>
-    <br>
-    <a href='/files/PlugMem.pdf'><button class="paper-btn">PAPER</button></a>
-    <a href='https://github.com/TIMAN-group/PlugMem'><button class="code-btn">CODE</button></a>
-    <br>
-    <em style="font-family: 'Times New Roman', Times, serif; font-size: smaller;">
+<div class='paper-box-image'>
+<div>
+<div class="badge">arXiv 2026</div>
+<img src='/images/PlugMem.png' alt="yang2026plugmem" width="100%">
+</div>
+</div>
+<div class='paper-box-text' markdown="1">
+<h3>PlugMem: A Task-Agnostic Plugin Memory Module for LLM Agents</h3>
+<span style="font-family: Georgia, serif; font-size: smaller;">
+<b>Ke Yang\*</b>, Zixi Chen\*, Xuan He\*, Jize Jiang\*, Michel Galley, Chenglong Wang, Jianfeng Gao, Jiawei Han, ChengXiang Zhai (* Equal contribution)</span>
+<br>
+<a href='/files/PlugMem.pdf'><button class="paper-btn">PAPER</button></a>
+<a href='https://github.com/TIMAN-group/PlugMem'><button class="code-btn">CODE</button></a>
+<br>
+<em style="font-family: 'Times New Roman', Times, serif; font-size: smaller;">
       PlugMem serves as a task-agnostic plug-and-play memory module for LLM agents that turns raw experience into reusable knowledge, helping agents remember what matters, not everything.
-    </em>
-  </div>
+</em>
+</div>
 </div>
 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">arXiv 2025</div><img src='/images/AIEconomics.png' alt="yang2025principlesaiagenteconomics" width="100%"></div></div>
