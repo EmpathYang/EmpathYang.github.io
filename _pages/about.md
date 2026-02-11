@@ -29,6 +29,7 @@ table, td, th, tr {
 }
 </style>
 <h2><span>Selected Publications</span></h2>
+
 <div class='paper-box'>
   <div class='paper-box-image'>
     <div>
