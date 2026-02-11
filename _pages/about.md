@@ -16,6 +16,7 @@ During the winter break of 2022, I collaborated with two of my undergrad classma
 
 News
 ------
+* 2026-02: New preprint: [PlugMem: A Task-Agnostic Plugin Memory Module for LLM Agents](/files/PlugMem.pdf), introduces a task-agnostic, plug-and-play memory module that turns raw agent experience into reusable knowledge and consistently improves long-horizon decision-making across tasks. Code available at [GitHub](https://github.com/TIMAN-group/PlugMem). 🧠🔌 
 * 2025-05: New preprint: [Ten Principles for the Economics of AI Agents](https://arxiv.org/abs/2505.20273). My first perspective paper—started out happily reflecting on AI agent incentives, then halfway through realized: oh no, I’ve been working on something kind of dangerous this whole time. 😅 Debugging welcome. 🧵
 * 2025-05: 👩‍💻 Joined Microsoft Research as a summer intern. Hello, Redmond! 
 * 2025-05: New preprint on [benchmarking Just-in-time Information Recommendation](https://arxiv.org/abs/2505.13550), which is about AI assistants proactively recommending the right information at the right time. 🕵 
@@ -28,6 +29,26 @@ table, td, th, tr {
 }
 </style>
 <h2><span>Selected Publications</span></h2>
+<div class='paper-box'>
+  <div class='paper-box-image'>
+    <div>
+      <div class="badge">arXiv 2026</div>
+      <img src='/images/PlugMem.png' alt="yang2026plugmem" width="100%">
+    </div>
+  </div>
+  <div class='paper-box-text' markdown="1">
+    <h3>PlugMem: A Task-Agnostic Plugin Memory Module for LLM Agents</h3>
+    <span style="font-family: Georgia, serif; font-size: smaller;">
+      <b>Ke Yang\*</b>, Zixi Chen\*, Xuan He\*, Jize Jiang\*, Michel Galley, Chenglong Wang, Jianfeng Gao, Jiawei Han, ChengXiang Zhai (* Equal contribution)</span>
+    <br>
+    <a href='/files/PlugMem.pdf'><button class="paper-btn">PAPER</button></a>
+    <a href='https://github.com/TIMAN-group/PlugMem'><button class="code-btn">CODE</button></a>
+    <br>
+    <em style="font-family: 'Times New Roman', Times, serif; font-size: smaller;">
+      PlugMem serves as a task-agnostic plug-and-play memory module for LLM agents that turns raw experience into reusable knowledge, helping agents remember what matters, not everything.
+    </em>
+  </div>
+</div>
 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">arXiv 2025</div><img src='/images/AIEconomics.png' alt="yang2025principlesaiagenteconomics" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
@@ -54,7 +75,7 @@ table, td, th, tr {
 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">arXiv 2024</div><img src='/images/TinyHelen.png' alt="yang2024tinyhelenscurriculumtrainingevaluating" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
-<h3>TinyHelen's First Curriculum: Training and Evaluating Tiny Language Models in a Simpler Language Environment</h3>
+<h3>Tiny Minds, Smaller Worlds: Training and Evaluating Tiny Language Models in a Simpler Language Environment</h3>
 <span style="font-family: Georgia, serif; font-size: smaller;"><b>Ke Yang</b>, Volodymyr Kindratenko, ChengXiang Zhai</span>
 <br>
 <a href='https://arxiv.org/abs/2501.00522'><button class="paper-btn">PAPER</button></a> <a href='https://github.com/EmpathYang/TinyHelen'><button class="code-btn">CODE</button></a>
@@ -77,7 +98,7 @@ table, td, th, tr {
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">NeurIPS 2024 D&B Track</div><img src='/images/Prejudice-framework.png' alt="2024prejudice" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 <h3>Bias and Volatility: A Statistical Framework for Evaluating Large Language Model's Stereotypes and the Associated Generation Inconsistency</h3>
-<span style="font-family: Georgia, serif; font-size: smaller;">Yiran Liu\*, <b>Ke Yang</b>\*, Zehan Qi, Xiao Liu, Yang Yu, ChengXiang Zhai (* indicates equal contributions)</span>
+<span style="font-family: Georgia, serif; font-size: smaller;">Yiran Liu\*, <b>Ke Yang</b>\*, Zehan Qi, Xiao Liu, Yang Yu, ChengXiang Zhai</span>
 <br>
 <a href='https://arxiv.org/abs/2402.15481'><button class="paper-btn">PAPER</button></a> <a href='https://github.com/EmpathYang/Prejudice-Volatility-Framework'><button class="code-btn">CODE</button></a> <a href='/files/PVF_note.pdf'><button class="note-btn">NOTE</button></a> <a href='files/BVF.pdf'><button class="slide-btn">SLIDE</button></a>
 <br>
@@ -88,7 +109,7 @@ table, td, th, tr {
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">ICLR Workshop 2024</div><img src='/images/Wizard-agent.png' alt="yang2024llm" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 <h3>If LLM Is the Wizard, Then Code Is the Wand: A Survey on How Code Empowers Large Language Models to Serve as Intelligent Agents</h3>
-<span style="font-family: Georgia, serif; font-size: smaller;"><b>Ke Yang</b>\*, Jiateng Liu\*, John Wu, Chaoqi Yang, Yi R. Fung, Sha Li, Zixuan Huang, Xu Cao, Xingyao Wang, Yiquan Wang, Heng Ji, ChengXiang Zhai  (* indicates equal contributions)</span>
+<span style="font-family: Georgia, serif; font-size: smaller;"><b>Ke Yang</b>\*, Jiateng Liu\*, John Wu, Chaoqi Yang, Yi R. Fung, Sha Li, Zixuan Huang, Xu Cao, Xingyao Wang, Yiquan Wang, Heng Ji, ChengXiang Zhai</span>
 <br>
 <a href='https://arxiv.org/abs/2401.00812'><button class="paper-btn">PAPER</button></a>
 <br>
