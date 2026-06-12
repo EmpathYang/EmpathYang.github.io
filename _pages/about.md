@@ -18,6 +18,7 @@ News
 ------
 * 2026-02: New preprint: [PlugMem: A Task-Agnostic Plugin Memory Module for LLM Agents](/files/PlugMem.pdf), introduces a task-agnostic, plug-and-play memory module that turns raw agent experience into reusable knowledge and consistently improves long-horizon decision-making across tasks. Code available at [GitHub](https://github.com/TIMAN-group/PlugMem). 🧠🔌 
 * 2025-05: New preprint: [Ten Principles for the Economics of AI Agents](https://arxiv.org/abs/2505.20273). My first perspective paper—started out happily reflecting on AI agent incentives, then halfway through realized: oh no, I’ve been working on something kind of dangerous this whole time. 😅 Debugging welcome. 🧵
+* 2025-05: New preprint: [Ten Principles of AI Agent Economics](https://arxiv.org/abs/2505.20273). My first perspective paper—started out happily reflecting on AI agent incentives, then halfway through realized: oh no, I’ve been working on something kind of dangerous this whole time. 😅 Debugging welcome. 🧵
 * 2025-05: 👩‍💻 Joined Microsoft Research as a summer intern. Hello, Redmond! 
 * 2025-05: New preprint on [benchmarking Just-in-time Information Recommendation](https://arxiv.org/abs/2505.13550), which is about AI assistants proactively recommending the right information at the right time. 🕵 
 
