@@ -1,0 +1,186 @@
+---
+layout: default
+---
+<div class="post home-creative">
+  <div class="hero-aura" aria-hidden="true">
+    <span class="ink-cloud c1"></span>
+    <span class="ink-cloud c2"></span>
+    <span class="ink-cloud c3"></span>
+    <span class="ink-cloud c4"></span>
+    <span class="ink-cloud c5"></span>
+    <span class="ink-cloud c6"></span>
+  </div>
+  <header class="post-header">
+    <div class="hero-top">
+      <h1 class="post-title">
+        {% if site.title == 'blank' %}
+          <span class="hero-name">{{ site.first_name }} {{ site.middle_name }} {{ site.last_name }}</span>
+          <span class="hero-cn">杨可</span>
+          <span class="hero-pron">pronounced “kuh-yahng”</span>
+        {% else %}
+          {{ site.title }}
+        {% endif %}
+      </h1>
+      {% if page.social %}
+        <div class="hero-social">
+          <div class="contact-icons">{% social_links %}</div>
+        </div>
+      {% endif %}
+    </div>
+    <p class="desc">{{ page.subtitle }}</p>
+  </header>
+
+  <article>
+    {% if page.profile %}
+      <div class="profile float-{% if page.profile.align == 'left' %}left{% else %}right{% endif %}">
+        {% if page.profile.image %}
+          {% assign profile_image_path = page.profile.image | prepend: 'assets/img/' %}
+          {% if page.profile.image_circular %}
+            {% assign profile_image_class = 'img-fluid z-depth-1 rounded-circle' %}
+          {% else %}
+            {% assign profile_image_class = 'img-fluid z-depth-1
+      rounded' %}
+          {% endif %}
+          {% capture sizes %}(min-width: {{ site.max_width }}) {{ site.max_width | minus: 30 | times: 0.3}}px, (min-width: 576px)
+      30vw, 95vw"{% endcapture %}
+          {%
+            include figure.liquid loading="eager" path=profile_image_path class=profile_image_class sizes=sizes alt=page.profile.image
+            cache_bust=true
+          %}
+        {% endif %}
+        {% if page.profile.more_info %}
+          <div class="more-info">{{ page.profile.more_info }}</div>
+        {% endif %}
+      </div>
+    {% endif %}
+
+    {% comment %} Split page content: everything after the <!--MISC--> marker renders at the very bottom. {% endcomment %}
+    {% assign content_parts = content | split: '<!--MISC-->' %}
+
+    <div class="clearfix">{{ content_parts[0] }}</div>
+
+    <!-- News -->
+    {% if page.announcements and page.announcements.enabled %}
+      <h2>
+        <a href="{{ '/news/' | relative_url }}" style="color: inherit">News</a>
+      </h2>
+      {% include news.liquid limit=true %}
+    {% endif %}
+
+    <!-- Latest posts -->
+    {% if page.latest_posts and page.latest_posts.enabled %}
+      <h2>
+        <a href="{{ '/blog/' | relative_url }}" style="color: inherit">Latest Posts</a>
+      </h2>
+      {% include latest_posts.liquid %}
+    {% endif %}
+
+    <!-- Selected papers -->
+    {% if page.selected_papers %}
+      <h2>
+        <a href="{{ '/publications/' | relative_url }}" style="color: inherit">Selected Publications</a>
+      </h2>
+      {% include selected_papers.liquid %}
+    {% endif %}
+
+    {% comment %} Tail content (e.g. Miscellaneous) — rendered after publications. {% endcomment %}
+    {% if content_parts.size > 1 %}
+      <div class="clearfix">{{ content_parts[1] }}</div>
+    {% endif %}
+
+    {% if site.newsletter and site.newsletter.enabled and site.footer_fixed %}
+      {% if site.plugins contains 'al_newsletter' %}
+        {% include plugins/al_newsletter_form_center_margin.liquid %}
+      {% else %}
+        {% include newsletter.liquid center=true %}
+      {% endif %}
+    {% endif %}
+  </article>
+
+  <noscript>
+    <style>
+      .home-creative .post-header,
+      .home-creative article > h2,
+      .home-creative ol.bibliography > li,
+      .home-creative .news .table-responsive tr,
+      .home-creative .social {
+        opacity: 1 !important;
+        transform: none !important;
+      }
+    </style>
+  </noscript>
+  <script>
+    (function () {
+      var root = document.querySelector('.home-creative');
+      if (!root) return;
+      var sel = '.post-header, article > h2, ol.bibliography > li, .news .table-responsive tr, .social';
+      var nodes = Array.prototype.slice.call(root.querySelectorAll(sel));
+      root.querySelectorAll('ol.bibliography > li').forEach(function (el, i) {
+        el.style.transitionDelay = i * 0.07 + 's';
+      });
+      root.querySelectorAll('.news .table-responsive tr').forEach(function (el, i) {
+        el.style.transitionDelay = i * 0.06 + 's';
+      });
+      if (!('IntersectionObserver' in window)) {
+        nodes.forEach(function (el) {
+          el.classList.add('in-view');
+        });
+        return;
+      }
+      var io = new IntersectionObserver(
+        function (entries) {
+          entries.forEach(function (e) {
+            if (e.isIntersecting) {
+              e.target.classList.add('in-view');
+              io.unobserve(e.target);
+            }
+          });
+        },
+        { threshold: 0.12, rootMargin: '0px 0px -8% 0px' }
+      );
+      nodes.forEach(function (el) {
+        io.observe(el);
+      });
+
+      var reduceMotion = window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+      var fine = window.matchMedia && window.matchMedia('(hover: hover) and (pointer: fine)').matches;
+
+      // Publication cards: cursor spotlight + subtle 3D tilt
+      if (fine && !reduceMotion) {
+        root.querySelectorAll('ol.bibliography > li').forEach(function (card) {
+          var row = card.querySelector('.row');
+          card.addEventListener('pointermove', function (e) {
+            var r = card.getBoundingClientRect();
+            var px = e.clientX - r.left;
+            var py = e.clientY - r.top;
+            card.style.setProperty('--mx', px + 'px');
+            card.style.setProperty('--my', py + 'px');
+            if (row) {
+              var rx = (py / r.height - 0.5) * -5;
+              var ry = (px / r.width - 0.5) * 5;
+              row.style.transform = 'translateY(-6px) perspective(900px) rotateX(' + rx + 'deg) rotateY(' + ry + 'deg)';
+            }
+          });
+          card.addEventListener('pointerleave', function () {
+            if (row) row.style.transform = '';
+          });
+        });
+
+        // Hero aura: gentle parallax following the pointer
+        var header = root.querySelector('.post-header');
+        var aura = root.querySelector('.hero-aura');
+        if (header && aura) {
+          header.addEventListener('pointermove', function (e) {
+            var r = header.getBoundingClientRect();
+            var dx = (e.clientX - r.left) / r.width - 0.5;
+            var dy = (e.clientY - r.top) / r.height - 0.5;
+            aura.style.transform = 'translate3d(' + dx * 26 + 'px,' + dy * 18 + 'px,0)';
+          });
+          header.addEventListener('pointerleave', function () {
+            aura.style.transform = '';
+          });
+        }
+      }
+    })();
+  </script>
+</div>
