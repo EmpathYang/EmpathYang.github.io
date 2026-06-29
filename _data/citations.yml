@@ -1,8 +1,8 @@
 metadata:
-  last_updated: '2026-06-17'
+  last_updated: '2026-06-29'
 papers:
   13Puu8AAAAAJ:0EnyYjriUFMC:
-    citations: 2
+    citations: 4
     title: Geometric-disentangelment unlearning
     year: '2025'
   13Puu8AAAAAJ:5nxA0vEk-isC:
@@ -10,7 +10,7 @@ papers:
     title: 'Gui-libra: Training native gui agents to reason and act with action-aware supervision and partially verifiable rl'
     year: '2026'
   13Puu8AAAAAJ:9yKSN-GCB0IC:
-    citations: 47
+    citations: 50
     title: 'Persona-db: Efficient large language model personalization for response prediction with collaborative data refinement'
     year: '2024'
   13Puu8AAAAAJ:IjCSPb-OGe4C:
@@ -18,7 +18,7 @@ papers:
     title: 'ORBIT: Cost-Effective Dataset Curation for Large Language Model Domain Adaptation with an Astronomy Case Study'
     year: '2024'
   13Puu8AAAAAJ:LkGwnXOMwfcC:
-    citations: 9
+    citations: 10
     title: 'PlugMem: A Task-Agnostic Plugin Memory Module for LLM Agents'
     year: '2026'
   13Puu8AAAAAJ:Se3iqnhoufwC:
@@ -26,11 +26,11 @@ papers:
     title: Malice, inequality, instability, or ignorance? Disentangling the mechanisms of LLM unfairness
     year: '2025'
   13Puu8AAAAAJ:Tyk-4Ss8FVUC:
-    citations: 33
+    citations: 36
     title: 'Bias and Volatility: A Statistical Framework for Evaluating Large Language Model''s Stereotypes and the Associated Generation Inconsistency'
     year: '2024'
   13Puu8AAAAAJ:UeHWp8X0CEIC:
-    citations: 127
+    citations: 134
     title: 'AgentOccam: A Simple Yet Strong Baseline for LLM-Based Web Agents'
     year: '2024'
   13Puu8AAAAAJ:UebtZRa9Y70C:
@@ -46,19 +46,19 @@ papers:
     title: 'Era: Transforming vlms into embodied agents via embodied prior learning and online reinforcement learning'
     year: '2025'
   13Puu8AAAAAJ:d1gkVwhDpl0C:
-    citations: 143
+    citations: 145
     title: 'If LLM Is the Wizard, Then Code Is the Wand: A Survey on How Code Empowers Large Language Models to Serve as Intelligent Agents'
     year: '2024'
   13Puu8AAAAAJ:eQOLeE2rZwMC:
-    citations: 7
+    citations: 6
     title: Ten Principles of AI Agent Economics
     year: '2025'
   13Puu8AAAAAJ:hqOjcs7Dif8C:
-    citations: 1
+    citations: 6
     title: Code as Agent Harness
     year: '2026'
   13Puu8AAAAAJ:u5HHmVD_uO8C:
-    citations: 92
+    citations: 93
     title: 'Adept: A debiasing prompt framework'
     year: '2023'
   13Puu8AAAAAJ:zYLM7Y9cAGgC:
