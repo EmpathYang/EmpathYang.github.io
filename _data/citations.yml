@@ -1,5 +1,5 @@
 metadata:
-  last_updated: '2026-06-29'
+  last_updated: '2026-07-15'
 papers:
   13Puu8AAAAAJ:0EnyYjriUFMC:
     citations: 4
@@ -10,7 +10,7 @@ papers:
     title: 'Gui-libra: Training native gui agents to reason and act with action-aware supervision and partially verifiable rl'
     year: '2026'
   13Puu8AAAAAJ:9yKSN-GCB0IC:
-    citations: 50
+    citations: 52
     title: 'Persona-db: Efficient large language model personalization for response prediction with collaborative data refinement'
     year: '2024'
   13Puu8AAAAAJ:IjCSPb-OGe4C:
@@ -18,7 +18,7 @@ papers:
     title: 'ORBIT: Cost-Effective Dataset Curation for Large Language Model Domain Adaptation with an Astronomy Case Study'
     year: '2024'
   13Puu8AAAAAJ:LkGwnXOMwfcC:
-    citations: 10
+    citations: 13
     title: 'PlugMem: A Task-Agnostic Plugin Memory Module for LLM Agents'
     year: '2026'
   13Puu8AAAAAJ:Se3iqnhoufwC:
@@ -30,7 +30,7 @@ papers:
     title: 'Bias and Volatility: A Statistical Framework for Evaluating Large Language Model''s Stereotypes and the Associated Generation Inconsistency'
     year: '2024'
   13Puu8AAAAAJ:UeHWp8X0CEIC:
-    citations: 134
+    citations: 141
     title: 'AgentOccam: A Simple Yet Strong Baseline for LLM-Based Web Agents'
     year: '2024'
   13Puu8AAAAAJ:UebtZRa9Y70C:
@@ -38,7 +38,7 @@ papers:
     title: 'BiasGRPO: Stabilizing Bias Mitigation in High-Variance Reward Landscapes via Group-Relative Policy Optimization'
     year: '2026'
   13Puu8AAAAAJ:YsMSGLbcyi4C:
-    citations: 1
+    citations: 0
     title: 'JIR-Arena: The First Benchmark Dataset for Just-in-time Information Recommendation'
     year: '2025'
   13Puu8AAAAAJ:_FxGoFyzp5QC:
@@ -46,19 +46,19 @@ papers:
     title: 'Era: Transforming vlms into embodied agents via embodied prior learning and online reinforcement learning'
     year: '2025'
   13Puu8AAAAAJ:d1gkVwhDpl0C:
-    citations: 145
+    citations: 149
     title: 'If LLM Is the Wizard, Then Code Is the Wand: A Survey on How Code Empowers Large Language Models to Serve as Intelligent Agents'
     year: '2024'
   13Puu8AAAAAJ:eQOLeE2rZwMC:
-    citations: 6
+    citations: 9
     title: Ten Principles of AI Agent Economics
     year: '2025'
   13Puu8AAAAAJ:hqOjcs7Dif8C:
-    citations: 6
+    citations: 8
     title: Code as Agent Harness
     year: '2026'
   13Puu8AAAAAJ:u5HHmVD_uO8C:
-    citations: 93
+    citations: 94
     title: 'Adept: A debiasing prompt framework'
     year: '2023'
   13Puu8AAAAAJ:zYLM7Y9cAGgC:
