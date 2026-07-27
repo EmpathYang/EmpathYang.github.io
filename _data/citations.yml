@@ -1,5 +1,5 @@
 metadata:
-  last_updated: '2026-07-15'
+  last_updated: '2026-07-27'
 papers:
   13Puu8AAAAAJ:0EnyYjriUFMC:
     citations: 4
@@ -30,7 +30,7 @@ papers:
     title: 'Bias and Volatility: A Statistical Framework for Evaluating Large Language Model''s Stereotypes and the Associated Generation Inconsistency'
     year: '2024'
   13Puu8AAAAAJ:UeHWp8X0CEIC:
-    citations: 141
+    citations: 146
     title: 'AgentOccam: A Simple Yet Strong Baseline for LLM-Based Web Agents'
     year: '2024'
   13Puu8AAAAAJ:UebtZRa9Y70C:
@@ -38,7 +38,7 @@ papers:
     title: 'BiasGRPO: Stabilizing Bias Mitigation in High-Variance Reward Landscapes via Group-Relative Policy Optimization'
     year: '2026'
   13Puu8AAAAAJ:YsMSGLbcyi4C:
-    citations: 0
+    citations: 1
     title: 'JIR-Arena: The First Benchmark Dataset for Just-in-time Information Recommendation'
     year: '2025'
   13Puu8AAAAAJ:_FxGoFyzp5QC:
@@ -46,7 +46,7 @@ papers:
     title: 'Era: Transforming vlms into embodied agents via embodied prior learning and online reinforcement learning'
     year: '2025'
   13Puu8AAAAAJ:d1gkVwhDpl0C:
-    citations: 149
+    citations: 150
     title: 'If LLM Is the Wizard, Then Code Is the Wand: A Survey on How Code Empowers Large Language Models to Serve as Intelligent Agents'
     year: '2024'
   13Puu8AAAAAJ:eQOLeE2rZwMC:
@@ -54,11 +54,11 @@ papers:
     title: Ten Principles of AI Agent Economics
     year: '2025'
   13Puu8AAAAAJ:hqOjcs7Dif8C:
-    citations: 8
+    citations: 13
     title: Code as Agent Harness
     year: '2026'
   13Puu8AAAAAJ:u5HHmVD_uO8C:
-    citations: 94
+    citations: 95
     title: 'Adept: A debiasing prompt framework'
     year: '2023'
   13Puu8AAAAAJ:zYLM7Y9cAGgC:
