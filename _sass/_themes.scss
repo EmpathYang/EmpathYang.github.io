@@ -633,6 +633,14 @@ nav .navbar-brand.title {
   color: var(--global-theme-color) !important;
 }
 
+/* --- News text color ----------------------------------------------------
+   The Bootstrap-compat `.table` rule hard-codes `color: #212529`, which all but
+   disappears against the dark card and page backgrounds. Take it from the theme
+   instead. Scoped to `.news` so it covers both the home page and /news/. */
+.news td {
+  color: var(--global-text-color);
+}
+
 /* --- News as accent cards ---------------------------------------------- */
 .home-creative .news table {
   border-collapse: separate;
