@@ -20,14 +20,6 @@
             %}
           {% endif %}
         {% endif %}
-        {%- if entry.abbr -%}
-          <span
-            class="badge"
-            style="position: absolute; top: 0.5em; left: -0.4em; z-index: 2; padding: 0.2em 0.85em; color: #fff; background-color: #5b8ec5; font-size: 1em; font-weight: 400; letter-spacing: 0; border-radius: 0; box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.35);"
-          >
-            {%- if entry.venue_full -%}{{ entry.venue_full }}{%- else -%}{{ entry.abbr }} {{ entry.year }}{%- endif -%}
-          </span>
-        {% endif %}
       </div>
     </div>
   {% endif %}
@@ -152,9 +144,11 @@
       {% capture entrymonth %}{{ " " }}{{ entry.month | capitalize }}{% endcapture %}
     {% endif %}
     {% assign entryyear = '' %}
-    {% if entry.year %}
-      {% capture entryyear %}{{ " " }}{{ entry.year }}{% endcapture %}
-    {% endif %}
+    {% unless entry.abbr %}
+      {% if entry.year %}
+        {% capture entryyear %}{{ " " }}{{ entry.year }}{% endcapture %}
+      {% endif %}
+    {% endunless %}
     {% if entry.location %}
       {% capture entrytype %}{{ entrytype }}{{ ", " }}{{ entry.location }}{% endcapture %}
     {% endif -%}
@@ -168,6 +162,14 @@
     {% assign entrytype_text = entrytype | strip_html | strip %}
     {% capture periodical %}{{ entrytype }}{% if entrytype_text != "" and entryyear != "" %}, {% endif %}{{ entrymonth }}{{ entryyear }}{% endcapture %}
     <div class="periodical">
+      {%- if entry.abbr -%}
+        <span
+          class="badge"
+          style="display: inline-block; margin-right: 0.5em; padding: 0.15em 0.6em; color: #fff; background-color: #5b8ec5; font-size: 0.78em; font-weight: 400; letter-spacing: 0; border-radius: 4px; vertical-align: 0.05em;"
+        >
+          {%- if entry.venue_full -%}{{ entry.venue_full }}{%- else -%}{{ entry.abbr }} {{ entry.year }}{%- endif -%}
+        </span>
+      {% endif %}
       {{ periodical | strip }}
     </div>
     <div class="periodical">
