@@ -824,6 +824,17 @@ nav .navbar-brand.title {
   color: var(--global-theme-color);
 }
 
+/* Xiaohongshu has no icon font, so paint its glyph in the current text color */
+.xhs-icon {
+  display: inline-block;
+  width: 1em;
+  height: 1em;
+  vertical-align: -0.125em;
+  background-color: currentColor;
+  -webkit-mask: url("/assets/img/xiaohongshu.svg") no-repeat center / contain;
+  mask: url("/assets/img/xiaohongshu.svg") no-repeat center / contain;
+}
+
 /* --- Scroll reveal (server-rendered initial hidden state, no flash) ----- */
 .home-creative .post-header,
 .home-creative article > h2,
