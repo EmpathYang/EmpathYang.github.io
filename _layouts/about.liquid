@@ -14,7 +14,11 @@ layout: default
     <div class="hero-top">
       <h1 class="post-title">
         {% if site.title == 'blank' %}
-          <span class="hero-name">{{ site.first_name }} {{ site.middle_name }} {{ site.last_name }}</span>
+          <span class="hero-name">
+            {{- site.first_name }}
+            {{ site.middle_name }}
+            {{ site.last_name -}}
+          </span>
           <span class="hero-cn">杨可</span>
           <span class="hero-pron">pronounced “kuh-yahng”</span>
         {% else %}

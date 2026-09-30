@@ -167,7 +167,12 @@
           class="badge"
           style="display: inline-block; margin-right: 0.5em; padding: 0.15em 0.6em; color: #fff; background-color: #5b8ec5; font-size: 0.78em; font-weight: 400; letter-spacing: 0; border-radius: 4px; vertical-align: 0.05em;"
         >
-          {%- if entry.venue_full -%}{{ entry.venue_full }}{%- else -%}{{ entry.abbr }} {{ entry.year }}{%- endif -%}
+          {%- if entry.venue_full -%}
+            {{ entry.venue_full }}
+          {%- else -%}
+            {{ entry.abbr }}
+            {{ entry.year }}
+          {%- endif -%}
         </span>
       {% endif %}
       {%- if entry.venue_extra -%}

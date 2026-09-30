@@ -216,7 +216,13 @@ html[data-theme-setting="light"] {
  * Elevated selectors so these win over the Tailwind base + theme defaults.
  ******************************************************************************/
 html body {
-  font-family: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  font-family:
+    "Inter",
+    -apple-system,
+    BlinkMacSystemFont,
+    "Segoe UI",
+    Roboto,
+    sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -855,11 +861,16 @@ nav .navbar-brand.title {
 }
 
 @media (prefers-reduced-motion: reduce) {
-  .home-creative .hero-aura .ink-cloud { animation: none; }
+  .home-creative .hero-aura .ink-cloud {
+    animation: none;
+  }
   .home-creative .post-header,
   .home-creative article > h2,
   .home-creative ol.bibliography > li,
   .home-creative .news .table-responsive tr,
-  .home-creative .social { opacity: 1; transform: none; transition: none; }
+  .home-creative .social {
+    opacity: 1;
+    transform: none;
+    transition: none;
+  }
 }
-
