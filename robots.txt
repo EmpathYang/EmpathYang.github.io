@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: https://EmpathYang.github.io/sitemap.xml
+Sitemap: https://empathyang.com/sitemap.xml
